@@ -16,17 +16,22 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { mkdtempSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { build } from 'esbuild';
 import initRDKit from '@rdkit/rdkit/dist/RDKit_minimal.js';
 
-const APP = new URL('..', import.meta.url).pathname;
+const APP = fileURLToPath(new URL('..', import.meta.url));
 const verbose = process.argv.includes('--verbose');
 
 async function loadAppModules(scratch) {
   const entry = join(scratch, 'entry.mjs');
+  // esbuild resolves absolute paths but not file:// URLs, and a Windows path's
+  // backslashes would be read as escapes inside the generated import. Forward
+  // slashes are accepted on both platforms.
+  const spec = (rel) => JSON.stringify(join(APP, rel).replace(/\\/g, '/'));
   writeFileSync(entry, `
-    export { computeBits, compileQueries } from ${JSON.stringify(join(APP, 'src/lib/fingerprint/pubchem.ts'))};
-    export { MODEL_BITS, score, label } from ${JSON.stringify(join(APP, 'src/lib/model/forest.ts'))};
+    export { computeBits, compileQueries } from ${spec('src/lib/fingerprint/pubchem.ts')};
+    export { MODEL_BITS, score, label } from ${spec('src/lib/model/forest.ts')};
   `);
   const outfile = join(scratch, 'bundle.mjs');
   await build({ entryPoints: [entry], outfile, bundle: true, format: 'esm',

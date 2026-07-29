@@ -15,8 +15,9 @@
 import { gunzipSync } from 'node:zlib';
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const APP = new URL('..', import.meta.url).pathname;
+const APP = fileURLToPath(new URL('..', import.meta.url));
 
 const fixture = JSON.parse(
   gunzipSync(readFileSync(join(APP, 'tests/fixtures/padel-bits.json.gz'))).toString('utf8'));

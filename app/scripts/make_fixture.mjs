@@ -17,11 +17,12 @@ import { gzipSync } from 'node:zlib';
 import { mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import initRDKit from '@rdkit/rdkit/dist/RDKit_minimal.js';
 import { buildCorpus } from './corpus.mjs';
 
-const APP = new URL('..', import.meta.url).pathname;
-const ROOT = new URL('../..', import.meta.url).pathname;
+const APP = fileURLToPath(new URL('..', import.meta.url));
+const ROOT = fileURLToPath(new URL('../..', import.meta.url));
 // Stored gzipped: 3852 x 881 bits is 3.5 MB of text but under 200 KB compressed.
 const OUT = join(APP, 'tests/fixtures/padel-bits.json.gz');
 

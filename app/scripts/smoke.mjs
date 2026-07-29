@@ -9,13 +9,13 @@
  * Usage:  npm run smoke
  */
 
-import { spawn } from 'node:child_process';
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import { extname, join, normalize } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
 
-const BUILD = new URL('../build', import.meta.url).pathname;
+const BUILD = fileURLToPath(new URL('../build', import.meta.url));
 const TYPES = {
   '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css',
   '.json': 'application/json', '.wasm': 'application/wasm', '.svg': 'image/svg+xml',

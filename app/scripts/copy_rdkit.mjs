@@ -5,9 +5,10 @@
  * repository small and the runtime version pinned by package-lock.json.
  */
 import { copyFileSync, mkdirSync } from 'node:fs';
-import { dirname, join } from 'node:path';
+import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const app = new URL('..', import.meta.url).pathname;
+const app = fileURLToPath(new URL('..', import.meta.url));
 const from = join(app, 'node_modules/@rdkit/rdkit/dist');
 const to = join(app, 'static');
 
