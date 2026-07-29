@@ -19,3 +19,8 @@ Thumbs.db
 venv/
 env/
 .env/
+# Svelte app
+app/node_modules/
+app/build/
+app/.svelte-kit/
+app/.vite/
