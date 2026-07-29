@@ -16,7 +16,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { mkdtempSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import { build } from 'esbuild';
 import initRDKit from '@rdkit/rdkit/dist/RDKit_minimal.js';
 
@@ -36,7 +36,9 @@ async function loadAppModules(scratch) {
   const outfile = join(scratch, 'bundle.mjs');
   await build({ entryPoints: [entry], outfile, bundle: true, format: 'esm',
                 platform: 'node', external: ['@rdkit/rdkit'], logLevel: 'warning' });
-  return import(outfile);
+  // Nor is a Windows absolute path a valid ESM specifier: Node reads the drive
+  // letter as a URL scheme and rejects it. import() takes a file:// URL.
+  return import(pathToFileURL(outfile).href);
 }
 
 const scratch = mkdtempSync(join(tmpdir(), 'egfrpred-test-'));
