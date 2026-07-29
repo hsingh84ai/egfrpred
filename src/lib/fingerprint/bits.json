@@ -1,0 +1,4555 @@
+{
+ "0": {
+  "kind": "element",
+  "element": "H",
+  "min": 4
+ },
+ "1": {
+  "kind": "element",
+  "element": "H",
+  "min": 8
+ },
+ "2": {
+  "kind": "element",
+  "element": "H",
+  "min": 16
+ },
+ "3": {
+  "kind": "element",
+  "element": "H",
+  "min": 32
+ },
+ "4": {
+  "kind": "element",
+  "element": "Li",
+  "min": 1
+ },
+ "5": {
+  "kind": "element",
+  "element": "Li",
+  "min": 2
+ },
+ "6": {
+  "kind": "element",
+  "element": "B",
+  "min": 1
+ },
+ "7": {
+  "kind": "element",
+  "element": "B",
+  "min": 2
+ },
+ "8": {
+  "kind": "element",
+  "element": "B",
+  "min": 4
+ },
+ "9": {
+  "kind": "element",
+  "element": "C",
+  "min": 2
+ },
+ "10": {
+  "kind": "element",
+  "element": "C",
+  "min": 4
+ },
+ "11": {
+  "kind": "element",
+  "element": "C",
+  "min": 8
+ },
+ "12": {
+  "kind": "element",
+  "element": "C",
+  "min": 16
+ },
+ "13": {
+  "kind": "element",
+  "element": "C",
+  "min": 32
+ },
+ "14": {
+  "kind": "element",
+  "element": "N",
+  "min": 1
+ },
+ "15": {
+  "kind": "element",
+  "element": "N",
+  "min": 2
+ },
+ "16": {
+  "kind": "element",
+  "element": "N",
+  "min": 4
+ },
+ "17": {
+  "kind": "element",
+  "element": "N",
+  "min": 8
+ },
+ "18": {
+  "kind": "element",
+  "element": "O",
+  "min": 1
+ },
+ "19": {
+  "kind": "element",
+  "element": "O",
+  "min": 2
+ },
+ "20": {
+  "kind": "element",
+  "element": "O",
+  "min": 4
+ },
+ "21": {
+  "kind": "element",
+  "element": "O",
+  "min": 8
+ },
+ "22": {
+  "kind": "element",
+  "element": "O",
+  "min": 16
+ },
+ "23": {
+  "kind": "element",
+  "element": "F",
+  "min": 1
+ },
+ "24": {
+  "kind": "element",
+  "element": "F",
+  "min": 2
+ },
+ "25": {
+  "kind": "element",
+  "element": "F",
+  "min": 4
+ },
+ "26": {
+  "kind": "element",
+  "element": "Na",
+  "min": 1
+ },
+ "27": {
+  "kind": "element",
+  "element": "Na",
+  "min": 2
+ },
+ "28": {
+  "kind": "element",
+  "element": "Si",
+  "min": 1
+ },
+ "29": {
+  "kind": "element",
+  "element": "Si",
+  "min": 2
+ },
+ "30": {
+  "kind": "element",
+  "element": "P",
+  "min": 1
+ },
+ "31": {
+  "kind": "element",
+  "element": "P",
+  "min": 2
+ },
+ "32": {
+  "kind": "element",
+  "element": "P",
+  "min": 4
+ },
+ "33": {
+  "kind": "element",
+  "element": "S",
+  "min": 1
+ },
+ "34": {
+  "kind": "element",
+  "element": "S",
+  "min": 2
+ },
+ "35": {
+  "kind": "element",
+  "element": "S",
+  "min": 4
+ },
+ "36": {
+  "kind": "element",
+  "element": "S",
+  "min": 8
+ },
+ "37": {
+  "kind": "element",
+  "element": "Cl",
+  "min": 1
+ },
+ "38": {
+  "kind": "element",
+  "element": "Cl",
+  "min": 2
+ },
+ "39": {
+  "kind": "element",
+  "element": "Cl",
+  "min": 4
+ },
+ "40": {
+  "kind": "element",
+  "element": "Cl",
+  "min": 8
+ },
+ "41": {
+  "kind": "element",
+  "element": "K",
+  "min": 1
+ },
+ "42": {
+  "kind": "element",
+  "element": "K",
+  "min": 2
+ },
+ "43": {
+  "kind": "element",
+  "element": "Br",
+  "min": 1
+ },
+ "44": {
+  "kind": "element",
+  "element": "Br",
+  "min": 2
+ },
+ "45": {
+  "kind": "element",
+  "element": "Br",
+  "min": 4
+ },
+ "46": {
+  "kind": "element",
+  "element": "I",
+  "min": 1
+ },
+ "47": {
+  "kind": "element",
+  "element": "I",
+  "min": 2
+ },
+ "48": {
+  "kind": "element",
+  "element": "I",
+  "min": 4
+ },
+ "49": {
+  "kind": "element",
+  "element": "Be",
+  "min": 1
+ },
+ "50": {
+  "kind": "element",
+  "element": "Mg",
+  "min": 1
+ },
+ "51": {
+  "kind": "element",
+  "element": "Al",
+  "min": 1
+ },
+ "52": {
+  "kind": "element",
+  "element": "Ca",
+  "min": 1
+ },
+ "53": {
+  "kind": "element",
+  "element": "Sc",
+  "min": 1
+ },
+ "54": {
+  "kind": "element",
+  "element": "Ti",
+  "min": 1
+ },
+ "55": {
+  "kind": "element",
+  "element": "V",
+  "min": 1
+ },
+ "56": {
+  "kind": "element",
+  "element": "Cr",
+  "min": 1
+ },
+ "57": {
+  "kind": "element",
+  "element": "Mn",
+  "min": 1
+ },
+ "58": {
+  "kind": "element",
+  "element": "Fe",
+  "min": 1
+ },
+ "59": {
+  "kind": "element",
+  "element": "Co",
+  "min": 1
+ },
+ "60": {
+  "kind": "element",
+  "element": "Ni",
+  "min": 1
+ },
+ "61": {
+  "kind": "element",
+  "element": "Cu",
+  "min": 1
+ },
+ "62": {
+  "kind": "element",
+  "element": "Zn",
+  "min": 1
+ },
+ "63": {
+  "kind": "element",
+  "element": "Ga",
+  "min": 1
+ },
+ "64": {
+  "kind": "element",
+  "element": "Ge",
+  "min": 1
+ },
+ "65": {
+  "kind": "element",
+  "element": "As",
+  "min": 1
+ },
+ "66": {
+  "kind": "element",
+  "element": "Se",
+  "min": 1
+ },
+ "67": {
+  "kind": "element",
+  "element": "Kr",
+  "min": 1
+ },
+ "68": {
+  "kind": "element",
+  "element": "Rb",
+  "min": 1
+ },
+ "69": {
+  "kind": "element",
+  "element": "Sr",
+  "min": 1
+ },
+ "70": {
+  "kind": "element",
+  "element": "Y",
+  "min": 1
+ },
+ "71": {
+  "kind": "element",
+  "element": "Zr",
+  "min": 1
+ },
+ "72": {
+  "kind": "element",
+  "element": "Nb",
+  "min": 1
+ },
+ "73": {
+  "kind": "element",
+  "element": "Mo",
+  "min": 1
+ },
+ "74": {
+  "kind": "element",
+  "element": "Ru",
+  "min": 1
+ },
+ "75": {
+  "kind": "element",
+  "element": "Rh",
+  "min": 1
+ },
+ "76": {
+  "kind": "element",
+  "element": "Pd",
+  "min": 1
+ },
+ "77": {
+  "kind": "element",
+  "element": "Ag",
+  "min": 1
+ },
+ "78": {
+  "kind": "element",
+  "element": "Cd",
+  "min": 1
+ },
+ "79": {
+  "kind": "element",
+  "element": "In",
+  "min": 1
+ },
+ "80": {
+  "kind": "element",
+  "element": "Sn",
+  "min": 1
+ },
+ "81": {
+  "kind": "element",
+  "element": "Sb",
+  "min": 1
+ },
+ "82": {
+  "kind": "element",
+  "element": "Te",
+  "min": 1
+ },
+ "83": {
+  "kind": "element",
+  "element": "Xe",
+  "min": 1
+ },
+ "84": {
+  "kind": "element",
+  "element": "Cs",
+  "min": 1
+ },
+ "85": {
+  "kind": "element",
+  "element": "Ba",
+  "min": 1
+ },
+ "86": {
+  "kind": "element",
+  "element": "Lu",
+  "min": 1
+ },
+ "87": {
+  "kind": "element",
+  "element": "Hf",
+  "min": 1
+ },
+ "88": {
+  "kind": "element",
+  "element": "Ta",
+  "min": 1
+ },
+ "89": {
+  "kind": "element",
+  "element": "W",
+  "min": 1
+ },
+ "90": {
+  "kind": "element",
+  "element": "Re",
+  "min": 1
+ },
+ "91": {
+  "kind": "element",
+  "element": "Os",
+  "min": 1
+ },
+ "92": {
+  "kind": "element",
+  "element": "Ir",
+  "min": 1
+ },
+ "93": {
+  "kind": "element",
+  "element": "Pt",
+  "min": 1
+ },
+ "94": {
+  "kind": "element",
+  "element": "Au",
+  "min": 1
+ },
+ "95": {
+  "kind": "element",
+  "element": "Hg",
+  "min": 1
+ },
+ "96": {
+  "kind": "element",
+  "element": "Tl",
+  "min": 1
+ },
+ "97": {
+  "kind": "element",
+  "element": "Pb",
+  "min": 1
+ },
+ "98": {
+  "kind": "element",
+  "element": "Bi",
+  "min": 1
+ },
+ "99": {
+  "kind": "element",
+  "element": "La",
+  "min": 1
+ },
+ "100": {
+  "kind": "element",
+  "element": "Ce",
+  "min": 1
+ },
+ "101": {
+  "kind": "element",
+  "element": "Pr",
+  "min": 1
+ },
+ "102": {
+  "kind": "element",
+  "element": "Nd",
+  "min": 1
+ },
+ "103": {
+  "kind": "element",
+  "element": "Pm",
+  "min": 1
+ },
+ "104": {
+  "kind": "element",
+  "element": "Sm",
+  "min": 1
+ },
+ "105": {
+  "kind": "element",
+  "element": "Eu",
+  "min": 1
+ },
+ "106": {
+  "kind": "element",
+  "element": "Gd",
+  "min": 1
+ },
+ "107": {
+  "kind": "element",
+  "element": "Tb",
+  "min": 1
+ },
+ "108": {
+  "kind": "element",
+  "element": "Dy",
+  "min": 1
+ },
+ "109": {
+  "kind": "element",
+  "element": "Ho",
+  "min": 1
+ },
+ "110": {
+  "kind": "element",
+  "element": "Er",
+  "min": 1
+ },
+ "111": {
+  "kind": "element",
+  "element": "Tm",
+  "min": 1
+ },
+ "112": {
+  "kind": "element",
+  "element": "Yb",
+  "min": 1
+ },
+ "113": {
+  "kind": "element",
+  "element": "Tc",
+  "min": 1
+ },
+ "114": {
+  "kind": "element",
+  "element": "U",
+  "min": 1
+ },
+ "115": {
+  "kind": "ring",
+  "predicate": "countAnyRing",
+  "size": 3,
+  "min": 1
+ },
+ "116": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticCarbonOnlyRing",
+  "size": 3,
+  "min": 1
+ },
+ "117": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticNitrogenContainingRing",
+  "size": 3,
+  "min": 1
+ },
+ "118": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticHeteroContainingRing",
+  "size": 3,
+  "min": 1
+ },
+ "119": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedCarbonOnlyRing",
+  "size": 3,
+  "min": 1
+ },
+ "120": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedNitrogenContainingRing",
+  "size": 3,
+  "min": 1
+ },
+ "121": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedHeteroContainingRing",
+  "size": 3,
+  "min": 1
+ },
+ "122": {
+  "kind": "ring",
+  "predicate": "countAnyRing",
+  "size": 3,
+  "min": 2
+ },
+ "123": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticCarbonOnlyRing",
+  "size": 3,
+  "min": 2
+ },
+ "124": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticNitrogenContainingRing",
+  "size": 3,
+  "min": 2
+ },
+ "125": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticHeteroContainingRing",
+  "size": 3,
+  "min": 2
+ },
+ "126": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedCarbonOnlyRing",
+  "size": 3,
+  "min": 2
+ },
+ "127": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedNitrogenContainingRing",
+  "size": 3,
+  "min": 2
+ },
+ "128": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedHeteroContainingRing",
+  "size": 3,
+  "min": 2
+ },
+ "129": {
+  "kind": "ring",
+  "predicate": "countAnyRing",
+  "size": 4,
+  "min": 1
+ },
+ "130": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticCarbonOnlyRing",
+  "size": 4,
+  "min": 1
+ },
+ "131": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticNitrogenContainingRing",
+  "size": 4,
+  "min": 1
+ },
+ "132": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticHeteroContainingRing",
+  "size": 4,
+  "min": 1
+ },
+ "133": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedCarbonOnlyRing",
+  "size": 4,
+  "min": 1
+ },
+ "134": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedNitrogenContainingRing",
+  "size": 4,
+  "min": 1
+ },
+ "135": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedHeteroContainingRing",
+  "size": 4,
+  "min": 1
+ },
+ "136": {
+  "kind": "ring",
+  "predicate": "countAnyRing",
+  "size": 4,
+  "min": 2
+ },
+ "137": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticCarbonOnlyRing",
+  "size": 4,
+  "min": 2
+ },
+ "138": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticNitrogenContainingRing",
+  "size": 4,
+  "min": 2
+ },
+ "139": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticHeteroContainingRing",
+  "size": 4,
+  "min": 2
+ },
+ "140": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedCarbonOnlyRing",
+  "size": 4,
+  "min": 2
+ },
+ "141": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedNitrogenContainingRing",
+  "size": 4,
+  "min": 2
+ },
+ "142": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedHeteroContainingRing",
+  "size": 4,
+  "min": 2
+ },
+ "143": {
+  "kind": "ring",
+  "predicate": "countAnyRing",
+  "size": 5,
+  "min": 1
+ },
+ "144": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticCarbonOnlyRing",
+  "size": 5,
+  "min": 1
+ },
+ "145": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticNitrogenContainingRing",
+  "size": 5,
+  "min": 1
+ },
+ "146": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticHeteroContainingRing",
+  "size": 5,
+  "min": 1
+ },
+ "147": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedCarbonOnlyRing",
+  "size": 5,
+  "min": 1
+ },
+ "148": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedNitrogenContainingRing",
+  "size": 5,
+  "min": 1
+ },
+ "149": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedHeteroContainingRing",
+  "size": 5,
+  "min": 1
+ },
+ "150": {
+  "kind": "ring",
+  "predicate": "countAnyRing",
+  "size": 5,
+  "min": 2
+ },
+ "151": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticCarbonOnlyRing",
+  "size": 5,
+  "min": 2
+ },
+ "152": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticNitrogenContainingRing",
+  "size": 5,
+  "min": 2
+ },
+ "153": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticHeteroContainingRing",
+  "size": 5,
+  "min": 2
+ },
+ "154": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedCarbonOnlyRing",
+  "size": 5,
+  "min": 2
+ },
+ "155": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedNitrogenContainingRing",
+  "size": 5,
+  "min": 2
+ },
+ "156": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedHeteroContainingRing",
+  "size": 5,
+  "min": 2
+ },
+ "157": {
+  "kind": "ring",
+  "predicate": "countAnyRing",
+  "size": 5,
+  "min": 3
+ },
+ "158": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticCarbonOnlyRing",
+  "size": 5,
+  "min": 3
+ },
+ "159": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticNitrogenContainingRing",
+  "size": 5,
+  "min": 3
+ },
+ "160": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticHeteroContainingRing",
+  "size": 5,
+  "min": 3
+ },
+ "161": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedCarbonOnlyRing",
+  "size": 5,
+  "min": 3
+ },
+ "162": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedNitrogenContainingRing",
+  "size": 5,
+  "min": 3
+ },
+ "163": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedHeteroContainingRing",
+  "size": 5,
+  "min": 3
+ },
+ "164": {
+  "kind": "ring",
+  "predicate": "countAnyRing",
+  "size": 5,
+  "min": 4
+ },
+ "165": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticCarbonOnlyRing",
+  "size": 5,
+  "min": 4
+ },
+ "166": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticNitrogenContainingRing",
+  "size": 5,
+  "min": 4
+ },
+ "167": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticHeteroContainingRing",
+  "size": 5,
+  "min": 4
+ },
+ "168": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedCarbonOnlyRing",
+  "size": 5,
+  "min": 4
+ },
+ "169": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedNitrogenContainingRing",
+  "size": 5,
+  "min": 4
+ },
+ "170": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedHeteroContainingRing",
+  "size": 5,
+  "min": 4
+ },
+ "171": {
+  "kind": "ring",
+  "predicate": "countAnyRing",
+  "size": 5,
+  "min": 5
+ },
+ "172": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticCarbonOnlyRing",
+  "size": 5,
+  "min": 5
+ },
+ "173": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticNitrogenContainingRing",
+  "size": 5,
+  "min": 5
+ },
+ "174": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticHeteroContainingRing",
+  "size": 5,
+  "min": 5
+ },
+ "175": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedCarbonOnlyRing",
+  "size": 5,
+  "min": 5
+ },
+ "176": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedNitrogenContainingRing",
+  "size": 5,
+  "min": 5
+ },
+ "177": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedHeteroContainingRing",
+  "size": 5,
+  "min": 5
+ },
+ "178": {
+  "kind": "ring",
+  "predicate": "countAnyRing",
+  "size": 6,
+  "min": 1
+ },
+ "179": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticCarbonOnlyRing",
+  "size": 6,
+  "min": 1
+ },
+ "180": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticNitrogenContainingRing",
+  "size": 6,
+  "min": 1
+ },
+ "181": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticHeteroContainingRing",
+  "size": 6,
+  "min": 1
+ },
+ "182": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedCarbonOnlyRing",
+  "size": 6,
+  "min": 1
+ },
+ "183": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedNitrogenContainingRing",
+  "size": 6,
+  "min": 1
+ },
+ "184": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedHeteroContainingRing",
+  "size": 6,
+  "min": 1
+ },
+ "185": {
+  "kind": "ring",
+  "predicate": "countAnyRing",
+  "size": 6,
+  "min": 2
+ },
+ "186": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticCarbonOnlyRing",
+  "size": 6,
+  "min": 2
+ },
+ "187": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticNitrogenContainingRing",
+  "size": 6,
+  "min": 2
+ },
+ "188": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticHeteroContainingRing",
+  "size": 6,
+  "min": 2
+ },
+ "189": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedCarbonOnlyRing",
+  "size": 6,
+  "min": 2
+ },
+ "190": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedNitrogenContainingRing",
+  "size": 6,
+  "min": 2
+ },
+ "191": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedHeteroContainingRing",
+  "size": 6,
+  "min": 2
+ },
+ "192": {
+  "kind": "ring",
+  "predicate": "countAnyRing",
+  "size": 6,
+  "min": 3
+ },
+ "193": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticCarbonOnlyRing",
+  "size": 6,
+  "min": 3
+ },
+ "194": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticNitrogenContainingRing",
+  "size": 6,
+  "min": 3
+ },
+ "195": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticHeteroContainingRing",
+  "size": 6,
+  "min": 3
+ },
+ "196": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedCarbonOnlyRing",
+  "size": 6,
+  "min": 3
+ },
+ "197": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedNitrogenContainingRing",
+  "size": 6,
+  "min": 3
+ },
+ "198": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedHeteroContainingRing",
+  "size": 6,
+  "min": 3
+ },
+ "199": {
+  "kind": "ring",
+  "predicate": "countAnyRing",
+  "size": 6,
+  "min": 4
+ },
+ "200": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticCarbonOnlyRing",
+  "size": 6,
+  "min": 4
+ },
+ "201": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticNitrogenContainingRing",
+  "size": 6,
+  "min": 4
+ },
+ "202": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticHeteroContainingRing",
+  "size": 6,
+  "min": 4
+ },
+ "203": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedCarbonOnlyRing",
+  "size": 6,
+  "min": 4
+ },
+ "204": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedNitrogenContainingRing",
+  "size": 6,
+  "min": 4
+ },
+ "205": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedHeteroContainingRing",
+  "size": 6,
+  "min": 4
+ },
+ "206": {
+  "kind": "ring",
+  "predicate": "countAnyRing",
+  "size": 6,
+  "min": 5
+ },
+ "207": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticCarbonOnlyRing",
+  "size": 6,
+  "min": 5
+ },
+ "208": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticNitrogenContainingRing",
+  "size": 6,
+  "min": 5
+ },
+ "209": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticHeteroContainingRing",
+  "size": 6,
+  "min": 5
+ },
+ "210": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedCarbonOnlyRing",
+  "size": 6,
+  "min": 5
+ },
+ "211": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedNitrogenContainingRing",
+  "size": 6,
+  "min": 5
+ },
+ "212": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedHeteroContainingRing",
+  "size": 6,
+  "min": 5
+ },
+ "213": {
+  "kind": "ring",
+  "predicate": "countAnyRing",
+  "size": 7,
+  "min": 1
+ },
+ "214": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticCarbonOnlyRing",
+  "size": 7,
+  "min": 1
+ },
+ "215": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticNitrogenContainingRing",
+  "size": 7,
+  "min": 1
+ },
+ "216": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticHeteroContainingRing",
+  "size": 7,
+  "min": 1
+ },
+ "217": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedCarbonOnlyRing",
+  "size": 7,
+  "min": 1
+ },
+ "218": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedNitrogenContainingRing",
+  "size": 7,
+  "min": 1
+ },
+ "219": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedHeteroContainingRing",
+  "size": 7,
+  "min": 1
+ },
+ "220": {
+  "kind": "ring",
+  "predicate": "countAnyRing",
+  "size": 7,
+  "min": 2
+ },
+ "221": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticCarbonOnlyRing",
+  "size": 7,
+  "min": 2
+ },
+ "222": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticNitrogenContainingRing",
+  "size": 7,
+  "min": 2
+ },
+ "223": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticHeteroContainingRing",
+  "size": 7,
+  "min": 2
+ },
+ "224": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedCarbonOnlyRing",
+  "size": 7,
+  "min": 2
+ },
+ "225": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedNitrogenContainingRing",
+  "size": 7,
+  "min": 2
+ },
+ "226": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedHeteroContainingRing",
+  "size": 7,
+  "min": 2
+ },
+ "227": {
+  "kind": "ring",
+  "predicate": "countAnyRing",
+  "size": 8,
+  "min": 1
+ },
+ "228": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticCarbonOnlyRing",
+  "size": 8,
+  "min": 1
+ },
+ "229": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticNitrogenContainingRing",
+  "size": 8,
+  "min": 1
+ },
+ "230": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticHeteroContainingRing",
+  "size": 8,
+  "min": 1
+ },
+ "231": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedCarbonOnlyRing",
+  "size": 8,
+  "min": 1
+ },
+ "232": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedNitrogenContainingRing",
+  "size": 8,
+  "min": 1
+ },
+ "233": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedHeteroContainingRing",
+  "size": 8,
+  "min": 1
+ },
+ "234": {
+  "kind": "ring",
+  "predicate": "countAnyRing",
+  "size": 8,
+  "min": 2
+ },
+ "235": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticCarbonOnlyRing",
+  "size": 8,
+  "min": 2
+ },
+ "236": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticNitrogenContainingRing",
+  "size": 8,
+  "min": 2
+ },
+ "237": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticHeteroContainingRing",
+  "size": 8,
+  "min": 2
+ },
+ "238": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedCarbonOnlyRing",
+  "size": 8,
+  "min": 2
+ },
+ "239": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedNitrogenContainingRing",
+  "size": 8,
+  "min": 2
+ },
+ "240": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedHeteroContainingRing",
+  "size": 8,
+  "min": 2
+ },
+ "241": {
+  "kind": "ring",
+  "predicate": "countAnyRing",
+  "size": 9,
+  "min": 1
+ },
+ "242": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticCarbonOnlyRing",
+  "size": 9,
+  "min": 1
+ },
+ "243": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticNitrogenContainingRing",
+  "size": 9,
+  "min": 1
+ },
+ "244": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticHeteroContainingRing",
+  "size": 9,
+  "min": 1
+ },
+ "245": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedCarbonOnlyRing",
+  "size": 9,
+  "min": 1
+ },
+ "246": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedNitrogenContainingRing",
+  "size": 9,
+  "min": 1
+ },
+ "247": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedHeteroContainingRing",
+  "size": 9,
+  "min": 1
+ },
+ "248": {
+  "kind": "ring",
+  "predicate": "countAnyRing",
+  "size": 10,
+  "min": 1
+ },
+ "249": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticCarbonOnlyRing",
+  "size": 10,
+  "min": 1
+ },
+ "250": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticNitrogenContainingRing",
+  "size": 10,
+  "min": 1
+ },
+ "251": {
+  "kind": "ring",
+  "predicate": "countSaturatedOrAromaticHeteroContainingRing",
+  "size": 10,
+  "min": 1
+ },
+ "252": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedCarbonOnlyRing",
+  "size": 10,
+  "min": 1
+ },
+ "253": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedNitrogenContainingRing",
+  "size": 10,
+  "min": 1
+ },
+ "254": {
+  "kind": "ring",
+  "predicate": "countUnsaturatedHeteroContainingRing",
+  "size": 10,
+  "min": 1
+ },
+ "255": {
+  "kind": "ring",
+  "predicate": "countAromaticRing",
+  "size": null,
+  "min": 1
+ },
+ "256": {
+  "kind": "ring",
+  "predicate": "countHeteroAromaticRing",
+  "size": null,
+  "min": 1
+ },
+ "257": {
+  "kind": "ring",
+  "predicate": "countAromaticRing",
+  "size": null,
+  "min": 2
+ },
+ "258": {
+  "kind": "ring",
+  "predicate": "countHeteroAromaticRing",
+  "size": null,
+  "min": 2
+ },
+ "259": {
+  "kind": "ring",
+  "predicate": "countAromaticRing",
+  "size": null,
+  "min": 3
+ },
+ "260": {
+  "kind": "ring",
+  "predicate": "countHeteroAromaticRing",
+  "size": null,
+  "min": 3
+ },
+ "261": {
+  "kind": "ring",
+  "predicate": "countAromaticRing",
+  "size": null,
+  "min": 4
+ },
+ "262": {
+  "kind": "ring",
+  "predicate": "countHeteroAromaticRing",
+  "size": null,
+  "min": 4
+ },
+ "263": {
+  "kind": "smarts",
+  "smarts": "[Li&!H0]",
+  "min": 1
+ },
+ "264": {
+  "kind": "smarts",
+  "smarts": "[Li]~[Li]",
+  "min": 1
+ },
+ "265": {
+  "kind": "smarts",
+  "smarts": "[Li]~[#5]",
+  "min": 1
+ },
+ "266": {
+  "kind": "smarts",
+  "smarts": "[Li]~[#6]",
+  "min": 1
+ },
+ "267": {
+  "kind": "smarts",
+  "smarts": "[Li]~[#8]",
+  "min": 1
+ },
+ "268": {
+  "kind": "smarts",
+  "smarts": "[Li]~[F]",
+  "min": 1
+ },
+ "269": {
+  "kind": "smarts",
+  "smarts": "[Li]~[#15]",
+  "min": 1
+ },
+ "270": {
+  "kind": "smarts",
+  "smarts": "[Li]~[#16]",
+  "min": 1
+ },
+ "271": {
+  "kind": "smarts",
+  "smarts": "[Li]~[Cl]",
+  "min": 1
+ },
+ "272": {
+  "kind": "smarts",
+  "smarts": "[#5&!H0]",
+  "min": 1
+ },
+ "273": {
+  "kind": "smarts",
+  "smarts": "[#5]~[#5]",
+  "min": 1
+ },
+ "274": {
+  "kind": "smarts",
+  "smarts": "[#5]~[#6]",
+  "min": 1
+ },
+ "275": {
+  "kind": "smarts",
+  "smarts": "[#5]~[#7]",
+  "min": 1
+ },
+ "276": {
+  "kind": "smarts",
+  "smarts": "[#5]~[#8]",
+  "min": 1
+ },
+ "277": {
+  "kind": "smarts",
+  "smarts": "[#5]~[F]",
+  "min": 1
+ },
+ "278": {
+  "kind": "smarts",
+  "smarts": "[#5]~[#14]",
+  "min": 1
+ },
+ "279": {
+  "kind": "smarts",
+  "smarts": "[#5]~[#15]",
+  "min": 1
+ },
+ "280": {
+  "kind": "smarts",
+  "smarts": "[#5]~[#16]",
+  "min": 1
+ },
+ "281": {
+  "kind": "smarts",
+  "smarts": "[#5]~[Cl]",
+  "min": 1
+ },
+ "282": {
+  "kind": "smarts",
+  "smarts": "[#5]~[Br]",
+  "min": 1
+ },
+ "283": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0]",
+  "min": 1
+ },
+ "284": {
+  "kind": "smarts",
+  "smarts": "[#6]~[#6]",
+  "min": 1
+ },
+ "285": {
+  "kind": "smarts",
+  "smarts": "[#6]~[#7]",
+  "min": 1
+ },
+ "286": {
+  "kind": "smarts",
+  "smarts": "[#6]~[#8]",
+  "min": 1
+ },
+ "287": {
+  "kind": "smarts",
+  "smarts": "[#6]~[F]",
+  "min": 1
+ },
+ "288": {
+  "kind": "smarts",
+  "smarts": "[#6]~[Na]",
+  "min": 1
+ },
+ "289": {
+  "kind": "smarts",
+  "smarts": "[#6]~[Mg]",
+  "min": 1
+ },
+ "290": {
+  "kind": "smarts",
+  "smarts": "[#6]~[Al]",
+  "min": 1
+ },
+ "291": {
+  "kind": "smarts",
+  "smarts": "[#6]~[#14]",
+  "min": 1
+ },
+ "292": {
+  "kind": "smarts",
+  "smarts": "[#6]~[#15]",
+  "min": 1
+ },
+ "293": {
+  "kind": "smarts",
+  "smarts": "[#6]~[#16]",
+  "min": 1
+ },
+ "294": {
+  "kind": "smarts",
+  "smarts": "[#6]~[Cl]",
+  "min": 1
+ },
+ "295": {
+  "kind": "smarts",
+  "smarts": "[#6]~[#33]",
+  "min": 1
+ },
+ "296": {
+  "kind": "smarts",
+  "smarts": "[#6]~[#34]",
+  "min": 1
+ },
+ "297": {
+  "kind": "smarts",
+  "smarts": "[#6]~[Br]",
+  "min": 1
+ },
+ "298": {
+  "kind": "smarts",
+  "smarts": "[#6]~[I]",
+  "min": 1
+ },
+ "299": {
+  "kind": "smarts",
+  "smarts": "[#7&!H0]",
+  "min": 1
+ },
+ "300": {
+  "kind": "smarts",
+  "smarts": "[#7]~[#7]",
+  "min": 1
+ },
+ "301": {
+  "kind": "smarts",
+  "smarts": "[#7]~[#8]",
+  "min": 1
+ },
+ "302": {
+  "kind": "smarts",
+  "smarts": "[#7]~[F]",
+  "min": 1
+ },
+ "303": {
+  "kind": "smarts",
+  "smarts": "[#7]~[#14]",
+  "min": 1
+ },
+ "304": {
+  "kind": "smarts",
+  "smarts": "[#7]~[#15]",
+  "min": 1
+ },
+ "305": {
+  "kind": "smarts",
+  "smarts": "[#7]~[#16]",
+  "min": 1
+ },
+ "306": {
+  "kind": "smarts",
+  "smarts": "[#7]~[Cl]",
+  "min": 1
+ },
+ "307": {
+  "kind": "smarts",
+  "smarts": "[#7]~[Br]",
+  "min": 1
+ },
+ "308": {
+  "kind": "smarts",
+  "smarts": "[#8&!H0]",
+  "min": 1
+ },
+ "309": {
+  "kind": "smarts",
+  "smarts": "[#8]~[#8]",
+  "min": 1
+ },
+ "310": {
+  "kind": "smarts",
+  "smarts": "[#8]~[Mg]",
+  "min": 1
+ },
+ "311": {
+  "kind": "smarts",
+  "smarts": "[#8]~[Na]",
+  "min": 1
+ },
+ "312": {
+  "kind": "smarts",
+  "smarts": "[#8]~[Al]",
+  "min": 1
+ },
+ "313": {
+  "kind": "smarts",
+  "smarts": "[#8]~[#14]",
+  "min": 1
+ },
+ "314": {
+  "kind": "smarts",
+  "smarts": "[#8]~[#15]",
+  "min": 1
+ },
+ "315": {
+  "kind": "smarts",
+  "smarts": "[#8]~[K]",
+  "min": 1
+ },
+ "316": {
+  "kind": "smarts",
+  "smarts": "[F]~[#15]",
+  "min": 1
+ },
+ "317": {
+  "kind": "smarts",
+  "smarts": "[F]~[#16]",
+  "min": 1
+ },
+ "318": {
+  "kind": "smarts",
+  "smarts": "[Al&!H0]",
+  "min": 1
+ },
+ "319": {
+  "kind": "smarts",
+  "smarts": "[Al]~[Cl]",
+  "min": 1
+ },
+ "320": {
+  "kind": "smarts",
+  "smarts": "[#14&!H0]",
+  "min": 1
+ },
+ "321": {
+  "kind": "smarts",
+  "smarts": "[#14]~[#14]",
+  "min": 1
+ },
+ "322": {
+  "kind": "smarts",
+  "smarts": "[#14]~[Cl]",
+  "min": 1
+ },
+ "323": {
+  "kind": "smarts",
+  "smarts": "[#15&!H0]",
+  "min": 1
+ },
+ "324": {
+  "kind": "smarts",
+  "smarts": "[#15]~[#15]",
+  "min": 1
+ },
+ "325": {
+  "kind": "smarts",
+  "smarts": "[#33&!H0]",
+  "min": 1
+ },
+ "326": {
+  "kind": "smarts",
+  "smarts": "[#33]~[#33]",
+  "min": 1
+ },
+ "327": {
+  "kind": "smarts",
+  "smarts": "[#6](~Br)(~[#6])",
+  "min": 1
+ },
+ "328": {
+  "kind": "smarts",
+  "smarts": "[#6](~Br)(~[#6])(~[#6])",
+  "min": 1
+ },
+ "329": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0]~[Br]",
+  "min": 1
+ },
+ "330": {
+  "kind": "smarts",
+  "smarts": "[#6](~[Br])(:[c])",
+  "min": 1
+ },
+ "331": {
+  "kind": "smarts",
+  "smarts": "[#6](~[Br])(:[n])",
+  "min": 1
+ },
+ "332": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#6])(~[#6])",
+  "min": 1
+ },
+ "333": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#6])(~[#6])(~[#6])",
+  "min": 1
+ },
+ "334": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#6])(~[#6])(~[#6])(~[#6])",
+  "min": 1
+ },
+ "335": {
+  "kind": "smarts",
+  "smarts": "[#6H1](~[#6])(~[#6])(~[#6])",
+  "min": 1
+ },
+ "336": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#6])(~[#6])(~[#6])(~[#7])",
+  "min": 1
+ },
+ "337": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#6])(~[#6])(~[#6])(~[#8])",
+  "min": 1
+ },
+ "338": {
+  "kind": "smarts",
+  "smarts": "[#6H1](~[#6])(~[#6])(~[#7])",
+  "min": 1
+ },
+ "339": {
+  "kind": "smarts",
+  "smarts": "[#6H1](~[#6])(~[#6])(~[#8])",
+  "min": 1
+ },
+ "340": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#6])(~[#6])(~[#7])",
+  "min": 1
+ },
+ "341": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#6])(~[#6])(~[#8])",
+  "min": 1
+ },
+ "342": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#6])(~[Cl])",
+  "min": 1
+ },
+ "343": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0](~[#6])(~[Cl])",
+  "min": 1
+ },
+ "344": {
+  "kind": "smarts",
+  "smarts": "[#6H,#6H2,#6H3,#6H4]~[#6]",
+  "min": 1
+ },
+ "345": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0](~[#6])(~[#7])",
+  "min": 1
+ },
+ "346": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0](~[#6])(~[#8])",
+  "min": 1
+ },
+ "347": {
+  "kind": "smarts",
+  "smarts": "[#6H1](~[#6])(~[#8])(~[#8])",
+  "min": 1
+ },
+ "348": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0](~[#6])(~[#15])",
+  "min": 1
+ },
+ "349": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0](~[#6])(~[#16])",
+  "min": 1
+ },
+ "350": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#6])(~[I])",
+  "min": 1
+ },
+ "351": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#6])(~[#7])",
+  "min": 1
+ },
+ "352": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#6])(~[#8])",
+  "min": 1
+ },
+ "353": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#6])(~[#16])",
+  "min": 1
+ },
+ "354": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#6])(~[#14])",
+  "min": 1
+ },
+ "355": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#6])(:c)",
+  "min": 1
+ },
+ "356": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#6])(:c)(:c)",
+  "min": 1
+ },
+ "357": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#6])(:c)(:n)",
+  "min": 1
+ },
+ "358": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#6])(:n)",
+  "min": 1
+ },
+ "359": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#6])(:n)(:n)",
+  "min": 1
+ },
+ "360": {
+  "kind": "smarts",
+  "smarts": "[#6](~[Cl])(~[Cl])",
+  "min": 1
+ },
+ "361": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0](~[Cl])",
+  "min": 1
+ },
+ "362": {
+  "kind": "smarts",
+  "smarts": "[#6](~[Cl])(:c)",
+  "min": 1
+ },
+ "363": {
+  "kind": "smarts",
+  "smarts": "[#6](~[F])(~[F])",
+  "min": 1
+ },
+ "364": {
+  "kind": "smarts",
+  "smarts": "[#6](~[F])(:c)",
+  "min": 1
+ },
+ "365": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0](~[#7])",
+  "min": 1
+ },
+ "366": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0](~[#8])",
+  "min": 1
+ },
+ "367": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0](~[#8])(~[#8])",
+  "min": 1
+ },
+ "368": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0](~[#16])",
+  "min": 1
+ },
+ "369": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0](~[#14])",
+  "min": 1
+ },
+ "370": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0]:c",
+  "min": 1
+ },
+ "371": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0](:c)(:c)",
+  "min": 1
+ },
+ "372": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0](:c)(:n)",
+  "min": 1
+ },
+ "373": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0](:n)",
+  "min": 1
+ },
+ "374": {
+  "kind": "smarts",
+  "smarts": "[#6H3]",
+  "min": 1
+ },
+ "375": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#7])(~[#7])",
+  "min": 1
+ },
+ "376": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#7])(:c)",
+  "min": 1
+ },
+ "377": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#7])(:c)(:c)",
+  "min": 1
+ },
+ "378": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#7])(:c)(:n)",
+  "min": 1
+ },
+ "379": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#7])(:n)",
+  "min": 1
+ },
+ "380": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#8])(~[#8])",
+  "min": 1
+ },
+ "381": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#8])(:c)",
+  "min": 1
+ },
+ "382": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#8])(:c)(:c)",
+  "min": 1
+ },
+ "383": {
+  "kind": "smarts",
+  "smarts": "[#6](~[#16])(:c)",
+  "min": 1
+ },
+ "384": {
+  "kind": "smarts",
+  "smarts": "[#6](:c)(:c)",
+  "min": 1
+ },
+ "385": {
+  "kind": "smarts",
+  "smarts": "[#6](:c)(:c)(:c)",
+  "min": 1
+ },
+ "386": {
+  "kind": "smarts",
+  "smarts": "[#6](:c)(:c)(:n)",
+  "min": 1
+ },
+ "387": {
+  "kind": "smarts",
+  "smarts": "[#6](:c)(:n)",
+  "min": 1
+ },
+ "388": {
+  "kind": "smarts",
+  "smarts": "[#6](:c)(:n)(:n)",
+  "min": 1
+ },
+ "389": {
+  "kind": "smarts",
+  "smarts": "[#6](:n)(:n)",
+  "min": 1
+ },
+ "390": {
+  "kind": "smarts",
+  "smarts": "[#7](~[#6])(~[#6])",
+  "min": 1
+ },
+ "391": {
+  "kind": "smarts",
+  "smarts": "[#7](~[#6])(~[#6])(~[#6])",
+  "min": 1
+ },
+ "392": {
+  "kind": "smarts",
+  "smarts": "[#7&!H0](~[#6])(~[#6])",
+  "min": 1
+ },
+ "393": {
+  "kind": "smarts",
+  "smarts": "[#7&!H0](~[#6])",
+  "min": 1
+ },
+ "394": {
+  "kind": "smarts",
+  "smarts": "[#7&!H0](~[#6])(~[#7])",
+  "min": 1
+ },
+ "395": {
+  "kind": "smarts",
+  "smarts": "[#7](~[#6])(~[#8])",
+  "min": 1
+ },
+ "396": {
+  "kind": "smarts",
+  "smarts": "[#7](~[#6])(:c)",
+  "min": 1
+ },
+ "397": {
+  "kind": "smarts",
+  "smarts": "[#7](~[#6])(:c)(:c)",
+  "min": 1
+ },
+ "398": {
+  "kind": "smarts",
+  "smarts": "[#7&!H0](~[#7])",
+  "min": 1
+ },
+ "399": {
+  "kind": "smarts",
+  "smarts": "[#7&!H0](:c)",
+  "min": 1
+ },
+ "400": {
+  "kind": "smarts",
+  "smarts": "[#7&!H0](:c)(:c)",
+  "min": 1
+ },
+ "401": {
+  "kind": "smarts",
+  "smarts": "[#7](~[#8])(~[#8])",
+  "min": 1
+ },
+ "402": {
+  "kind": "smarts",
+  "smarts": "[#7](~[#8])(:o)",
+  "min": 1
+ },
+ "403": {
+  "kind": "smarts",
+  "smarts": "[#7](:c)(:c)",
+  "min": 1
+ },
+ "404": {
+  "kind": "smarts",
+  "smarts": "[#7](:c)(:c)(:c)",
+  "min": 1
+ },
+ "405": {
+  "kind": "smarts",
+  "smarts": "[#8](~[#6])(~[#6])",
+  "min": 1
+ },
+ "406": {
+  "kind": "smarts",
+  "smarts": "[#8&!H0](~[#6])",
+  "min": 1
+ },
+ "407": {
+  "kind": "smarts",
+  "smarts": "[#8](~[#6])(~[#15])",
+  "min": 1
+ },
+ "408": {
+  "kind": "smarts",
+  "smarts": "[#8&!H0](~[#16])",
+  "min": 1
+ },
+ "409": {
+  "kind": "smarts",
+  "smarts": "[#8](:c)(:c)",
+  "min": 1
+ },
+ "410": {
+  "kind": "smarts",
+  "smarts": "[#15](~[#6])(~[#6])",
+  "min": 1
+ },
+ "411": {
+  "kind": "smarts",
+  "smarts": "[#15](~[#8])(~[#8])",
+  "min": 1
+ },
+ "412": {
+  "kind": "smarts",
+  "smarts": "[#16](~[#6])(~[#6])",
+  "min": 1
+ },
+ "413": {
+  "kind": "smarts",
+  "smarts": "[#16&!H0](~[#6])",
+  "min": 1
+ },
+ "414": {
+  "kind": "smarts",
+  "smarts": "[#16](~[#6])(~[#8])",
+  "min": 1
+ },
+ "415": {
+  "kind": "smarts",
+  "smarts": "[#14](~[#6])(~[#6])",
+  "min": 1
+ },
+ "416": {
+  "kind": "smarts",
+  "smarts": "[#6]=,:[#6]",
+  "min": 1
+ },
+ "417": {
+  "kind": "smarts",
+  "smarts": "[#6]#[#6]",
+  "min": 1
+ },
+ "418": {
+  "kind": "smarts",
+  "smarts": "[#6]=,:[#7]",
+  "min": 1
+ },
+ "419": {
+  "kind": "smarts",
+  "smarts": "[#6]#[#7]",
+  "min": 1
+ },
+ "420": {
+  "kind": "smarts",
+  "smarts": "[#6]=,:[#8]",
+  "min": 1
+ },
+ "421": {
+  "kind": "smarts",
+  "smarts": "[#6]=,:[#16]",
+  "min": 1
+ },
+ "422": {
+  "kind": "smarts",
+  "smarts": "[#7]=,:[#7]",
+  "min": 1
+ },
+ "423": {
+  "kind": "smarts",
+  "smarts": "[#7]=,:[#8]",
+  "min": 1
+ },
+ "424": {
+  "kind": "smarts",
+  "smarts": "[#7]=,:[#15]",
+  "min": 1
+ },
+ "425": {
+  "kind": "smarts",
+  "smarts": "[#15]=,:[#8]",
+  "min": 1
+ },
+ "426": {
+  "kind": "smarts",
+  "smarts": "[#15]=,:[#15]",
+  "min": 1
+ },
+ "427": {
+  "kind": "smarts",
+  "smarts": "[#6](#[#6])(-,:[#6])",
+  "min": 1
+ },
+ "428": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0](#[#6])",
+  "min": 1
+ },
+ "429": {
+  "kind": "smarts",
+  "smarts": "[#6](#[#7])(-,:[#6])",
+  "min": 1
+ },
+ "430": {
+  "kind": "smarts",
+  "smarts": "[#6](-,:[#6])(-,:[#6])(=,:[#6])",
+  "min": 1
+ },
+ "431": {
+  "kind": "smarts",
+  "smarts": "[#6](-,:[#6])(-,:[#6])(=,:[#7])",
+  "min": 1
+ },
+ "432": {
+  "kind": "smarts",
+  "smarts": "[#6](-,:[#6])(-,:[#6])(=,:[#8])",
+  "min": 1
+ },
+ "433": {
+  "kind": "smarts",
+  "smarts": "[#6](-,:[#6])([Cl])(=,:[#8])",
+  "min": 1
+ },
+ "434": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0](-,:[#6])(=,:[#6])",
+  "min": 1
+ },
+ "435": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0](-,:[#6])(=,:[#7])",
+  "min": 1
+ },
+ "436": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0](-,:[#6])(=,:[#8])",
+  "min": 1
+ },
+ "437": {
+  "kind": "smarts",
+  "smarts": "[#6](-,:[#6])(-,:[#7])(=,:[#6])",
+  "min": 1
+ },
+ "438": {
+  "kind": "smarts",
+  "smarts": "[#6](-,:[#6])(-,:[#7])(=,:[#7])",
+  "min": 1
+ },
+ "439": {
+  "kind": "smarts",
+  "smarts": "[#6](-,:[#6])(-,:[#7])(=,:[#8])",
+  "min": 1
+ },
+ "440": {
+  "kind": "smarts",
+  "smarts": "[#6](-,:[#6])(-,:[#8])(=,:[#8])",
+  "min": 1
+ },
+ "441": {
+  "kind": "smarts",
+  "smarts": "[#6](-,:[#6])(=,:[#6])",
+  "min": 1
+ },
+ "442": {
+  "kind": "smarts",
+  "smarts": "[#6](-,:[#6])(=,:[#7])",
+  "min": 1
+ },
+ "443": {
+  "kind": "smarts",
+  "smarts": "[#6](-,:[#6])(=,:[#8])",
+  "min": 1
+ },
+ "444": {
+  "kind": "smarts",
+  "smarts": "[#6]([Cl])(=,:[#8])",
+  "min": 1
+ },
+ "445": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0](-,:[#7])(=,:[#6])",
+  "min": 1
+ },
+ "446": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0](=,:[#6])",
+  "min": 1
+ },
+ "447": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0](=,:[#7])",
+  "min": 1
+ },
+ "448": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0](=,:[#8])",
+  "min": 1
+ },
+ "449": {
+  "kind": "smarts",
+  "smarts": "[#6](-,:[#7])(=,:[#6])",
+  "min": 1
+ },
+ "450": {
+  "kind": "smarts",
+  "smarts": "[#6](-,:[#7])(=,:[#7])",
+  "min": 1
+ },
+ "451": {
+  "kind": "smarts",
+  "smarts": "[#6](-,:[#7])(=,:[#8])",
+  "min": 1
+ },
+ "452": {
+  "kind": "smarts",
+  "smarts": "[#6](-,:[#8])(=,:[#8])",
+  "min": 1
+ },
+ "453": {
+  "kind": "smarts",
+  "smarts": "[#7](-,:[#6])(=,:[#6])",
+  "min": 1
+ },
+ "454": {
+  "kind": "smarts",
+  "smarts": "[#7](-,:[#6])(=,:[#8])",
+  "min": 1
+ },
+ "455": {
+  "kind": "smarts",
+  "smarts": "[#7](-,:[#8])(=,:[#8])",
+  "min": 1
+ },
+ "456": {
+  "kind": "smarts",
+  "smarts": "[#15](-,:[#8])(=,:[#8])",
+  "min": 1
+ },
+ "457": {
+  "kind": "smarts",
+  "smarts": "[#16](-,:[#6])(=,:[#8])",
+  "min": 1
+ },
+ "458": {
+  "kind": "smarts",
+  "smarts": "[#16](-,:[#8])(=,:[#8])",
+  "min": 1
+ },
+ "459": {
+  "kind": "smarts",
+  "smarts": "[#16](=,:[#8])(=,:[#8])",
+  "min": 1
+ },
+ "460": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]-,:[#6]#[#6]",
+  "min": 1
+ },
+ "461": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]=,:[#7]",
+  "min": 1
+ },
+ "462": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]=,:[#8]",
+  "min": 1
+ },
+ "463": {
+  "kind": "smarts",
+  "smarts": "[#7]:[#6]-,:[#16&!H0]",
+  "min": 1
+ },
+ "464": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]-,:[#6]=,:[#6]",
+  "min": 1
+ },
+ "465": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#16]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "466": {
+  "kind": "smarts",
+  "smarts": "[#7]#[#6]-,:[#6]=,:[#6]",
+  "min": 1
+ },
+ "467": {
+  "kind": "smarts",
+  "smarts": "[#6]=,:[#7]-,:[#7]-,:[#6]",
+  "min": 1
+ },
+ "468": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#16]-,:[#6]-,:[#7]",
+  "min": 1
+ },
+ "469": {
+  "kind": "smarts",
+  "smarts": "[#16]-,:[#16]-,:[#6]:[#6]",
+  "min": 1
+ },
+ "470": {
+  "kind": "smarts",
+  "smarts": "[#6]:[#6]-,:[#6]=,:[#6]",
+  "min": 1
+ },
+ "471": {
+  "kind": "smarts",
+  "smarts": "[#16]:[#6]:[#6]:[#6]",
+  "min": 1
+ },
+ "472": {
+  "kind": "smarts",
+  "smarts": "[#6]:[#7]:[#6]-,:[#6]",
+  "min": 1
+ },
+ "473": {
+  "kind": "smarts",
+  "smarts": "[#16]-,:[#6]:[#7]:[#6]",
+  "min": 1
+ },
+ "474": {
+  "kind": "smarts",
+  "smarts": "[#16]:[#6]:[#6]:[#7]",
+  "min": 1
+ },
+ "475": {
+  "kind": "smarts",
+  "smarts": "[#16]-,:[#6]=,:[#7]-,:[#6]",
+  "min": 1
+ },
+ "476": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#8]-,:[#6]=,:[#6]",
+  "min": 1
+ },
+ "477": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#7]-,:[#6]:[#6]",
+  "min": 1
+ },
+ "478": {
+  "kind": "smarts",
+  "smarts": "[#16]-,:[#6]=,:[#7&!H0]",
+  "min": 1
+ },
+ "479": {
+  "kind": "smarts",
+  "smarts": "[#16]-,:[#6]-,:[#16]-,:[#6]",
+  "min": 1
+ },
+ "480": {
+  "kind": "smarts",
+  "smarts": "[#6]:[#16]:[#6]-,:[#6]",
+  "min": 1
+ },
+ "481": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#16]-,:[#6]:[#6]",
+  "min": 1
+ },
+ "482": {
+  "kind": "smarts",
+  "smarts": "[#6]:[#7]-,:[#6]:[#6]",
+  "min": 1
+ },
+ "483": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#16]-,:[#6]:[#6]",
+  "min": 1
+ },
+ "484": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]:[#7]:[#6]",
+  "min": 1
+ },
+ "485": {
+  "kind": "smarts",
+  "smarts": "[#7]:[#6]:[#6]:[#7]",
+  "min": 1
+ },
+ "486": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]:[#7]:[#7]",
+  "min": 1
+ },
+ "487": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]=,:[#7]-,:[#6]",
+  "min": 1
+ },
+ "488": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]=,:[#7&!H0]",
+  "min": 1
+ },
+ "489": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]-,:[#16]-,:[#6]",
+  "min": 1
+ },
+ "490": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]-,:[#6]=,:[#6]",
+  "min": 1
+ },
+ "491": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#7]:[#6&!H0]",
+  "min": 1
+ },
+ "492": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]:[#8]:[#6]",
+  "min": 1
+ },
+ "493": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]:[#6]",
+  "min": 1
+ },
+ "494": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]:[#7]",
+  "min": 1
+ },
+ "495": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#7]-,:[#6]:[#6]",
+  "min": 1
+ },
+ "496": {
+  "kind": "smarts",
+  "smarts": "[#7]:[#7]-,:[#6&!H0]",
+  "min": 1
+ },
+ "497": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]:[#6]:[#7]",
+  "min": 1
+ },
+ "498": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]=,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "499": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]:[#6]:[#7]",
+  "min": 1
+ },
+ "500": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#16]-,:[#6]:[#6]",
+  "min": 1
+ },
+ "501": {
+  "kind": "smarts",
+  "smarts": "[Cl]-,:[#6]:[#6]-,:[#6]",
+  "min": 1
+ },
+ "502": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]=,:[#6&!H0]",
+  "min": 1
+ },
+ "503": {
+  "kind": "smarts",
+  "smarts": "[Cl]-,:[#6]:[#6&!H0]",
+  "min": 1
+ },
+ "504": {
+  "kind": "smarts",
+  "smarts": "[#7]:[#6]:[#7]-,:[#6]",
+  "min": 1
+ },
+ "505": {
+  "kind": "smarts",
+  "smarts": "[Cl]-,:[#6]:[#6]-,:[#8]",
+  "min": 1
+ },
+ "506": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]:[#7]:[#6]",
+  "min": 1
+ },
+ "507": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]-,:[#16]-,:[#6]",
+  "min": 1
+ },
+ "508": {
+  "kind": "smarts",
+  "smarts": "[#16]=,:[#6]-,:[#7]-,:[#6]",
+  "min": 1
+ },
+ "509": {
+  "kind": "smarts",
+  "smarts": "[Br]-,:[#6]:[#6]-,:[#6]",
+  "min": 1
+ },
+ "510": {
+  "kind": "smarts",
+  "smarts": "[#7&!H0]-,:[#7&!H0]",
+  "min": 1
+ },
+ "511": {
+  "kind": "smarts",
+  "smarts": "[#16]=,:[#6]-,:[#7&!H0]",
+  "min": 1
+ },
+ "512": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#33]-[#8&!H0]",
+  "min": 1
+ },
+ "513": {
+  "kind": "smarts",
+  "smarts": "[#16]:[#6]:[#6&!H0]",
+  "min": 1
+ },
+ "514": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#7]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "515": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#7]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "516": {
+  "kind": "smarts",
+  "smarts": "[#6H,#6H2,#6H3]=,:[#6H,#6H2,#6H3]",
+  "min": 1
+ },
+ "517": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#7]-,:[#6]-,:[#7]",
+  "min": 1
+ },
+ "518": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#7]-,:[#7]",
+  "min": 1
+ },
+ "519": {
+  "kind": "smarts",
+  "smarts": "[#7]=,:[#6]-,:[#7]-,:[#6]",
+  "min": 1
+ },
+ "520": {
+  "kind": "smarts",
+  "smarts": "[#6]=,:[#6]-,:[#6]:[#6]",
+  "min": 1
+ },
+ "521": {
+  "kind": "smarts",
+  "smarts": "[#6]:[#7]-,:[#6&!H0]",
+  "min": 1
+ },
+ "522": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#7]-,:[#7&!H0]",
+  "min": 1
+ },
+ "523": {
+  "kind": "smarts",
+  "smarts": "[#7]:[#6]:[#6]-,:[#6]",
+  "min": 1
+ },
+ "524": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]=,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "525": {
+  "kind": "smarts",
+  "smarts": "[#33]-,:[#6]:[#6&!H0]",
+  "min": 1
+ },
+ "526": {
+  "kind": "smarts",
+  "smarts": "[Cl]-,:[#6]:[#6]-,:[Cl]",
+  "min": 1
+ },
+ "527": {
+  "kind": "smarts",
+  "smarts": "[#6]:[#6]:[#7&!H0]",
+  "min": 1
+ },
+ "528": {
+  "kind": "smarts",
+  "smarts": "[#7&!H0]-,:[#6&!H0]",
+  "min": 1
+ },
+ "529": {
+  "kind": "smarts",
+  "smarts": "[Cl]-,:[#6]-,:[#6]-,:[Cl]",
+  "min": 1
+ },
+ "530": {
+  "kind": "smarts",
+  "smarts": "[#7]:[#6]-,:[#6]:[#6]",
+  "min": 1
+ },
+ "531": {
+  "kind": "smarts",
+  "smarts": "[#16]-,:[#6]:[#6]-,:[#6]",
+  "min": 1
+ },
+ "532": {
+  "kind": "smarts",
+  "smarts": "[#16]-,:[#6]:[#6&!H0]",
+  "min": 1
+ },
+ "533": {
+  "kind": "smarts",
+  "smarts": "[#16]-,:[#6]:[#6]-,:[#7]",
+  "min": 1
+ },
+ "534": {
+  "kind": "smarts",
+  "smarts": "[#16]-,:[#6]:[#6]-,:[#8]",
+  "min": 1
+ },
+ "535": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "536": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]-,:[#7]",
+  "min": 1
+ },
+ "537": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]-,:[#8]",
+  "min": 1
+ },
+ "538": {
+  "kind": "smarts",
+  "smarts": "[#7]=,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "539": {
+  "kind": "smarts",
+  "smarts": "[#7]=,:[#6]-,:[#6&!H0]",
+  "min": 1
+ },
+ "540": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#7]-,:[#6&!H0]",
+  "min": 1
+ },
+ "541": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]:[#6]-,:[#6]",
+  "min": 1
+ },
+ "542": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]:[#6&!H0]",
+  "min": 1
+ },
+ "543": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]:[#6]-,:[#7]",
+  "min": 1
+ },
+ "544": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]:[#6]-,:[#8]",
+  "min": 1
+ },
+ "545": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]:[#6]-,:[#6]",
+  "min": 1
+ },
+ "546": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]:[#6&!H0]",
+  "min": 1
+ },
+ "547": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]:[#6]-,:[#7]",
+  "min": 1
+ },
+ "548": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]:[#6]",
+  "min": 1
+ },
+ "549": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]-,:[#6]:[#6]",
+  "min": 1
+ },
+ "550": {
+  "kind": "smarts",
+  "smarts": "[Cl]-,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "551": {
+  "kind": "smarts",
+  "smarts": "[Cl]-,:[#6]-,:[#6]-,:[#8]",
+  "min": 1
+ },
+ "552": {
+  "kind": "smarts",
+  "smarts": "[#6]:[#6]-,:[#6]:[#6]",
+  "min": 1
+ },
+ "553": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]=,:[#6]",
+  "min": 1
+ },
+ "554": {
+  "kind": "smarts",
+  "smarts": "[Br]-,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "555": {
+  "kind": "smarts",
+  "smarts": "[#7]=,:[#6]-,:[#6]=,:[#6]",
+  "min": 1
+ },
+ "556": {
+  "kind": "smarts",
+  "smarts": "[#6]=,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "557": {
+  "kind": "smarts",
+  "smarts": "[#7]:[#6]-,:[#8&!H0]",
+  "min": 1
+ },
+ "558": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#7]-,:c:c",
+  "min": 1
+ },
+ "559": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#7&!H0]",
+  "min": 1
+ },
+ "560": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]-,:[#7]-,:[#6]",
+  "min": 1
+ },
+ "561": {
+  "kind": "smarts",
+  "smarts": "[Cl]-,:[#6]-,:[#6]=,:[#8]",
+  "min": 1
+ },
+ "562": {
+  "kind": "smarts",
+  "smarts": "[Br]-,:[#6]-,:[#6]=,:[#8]",
+  "min": 1
+ },
+ "563": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#8]-,:[#6]",
+  "min": 1
+ },
+ "564": {
+  "kind": "smarts",
+  "smarts": "[#6]=,:[#6]-,:[#6]=,:[#6]",
+  "min": 1
+ },
+ "565": {
+  "kind": "smarts",
+  "smarts": "[#6]:[#6]-,:[#8]-,:[#6]",
+  "min": 1
+ },
+ "566": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]-,:[#7]",
+  "min": 1
+ },
+ "567": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]-,:[#8]",
+  "min": 1
+ },
+ "568": {
+  "kind": "smarts",
+  "smarts": "N#[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "569": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]-,:[#6]-,:[#7]",
+  "min": 1
+ },
+ "570": {
+  "kind": "smarts",
+  "smarts": "[#6]:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "571": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0]-,:[#8&!H0]",
+  "min": 1
+ },
+ "572": {
+  "kind": "smarts",
+  "smarts": "n:c:n:c",
+  "min": 1
+ },
+ "573": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]=,:[#6]",
+  "min": 1
+ },
+ "574": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]:[#6]-,:[#6]",
+  "min": 1
+ },
+ "575": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]:[#6]-,:[#8]",
+  "min": 1
+ },
+ "576": {
+  "kind": "smarts",
+  "smarts": "[#7]=,:[#6]-,:[#6]:[#6&!H0]",
+  "min": 1
+ },
+ "577": {
+  "kind": "smarts",
+  "smarts": "c:c-,:[#7]-,:c:c",
+  "min": 1
+ },
+ "578": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]:[#6]-,:c:c",
+  "min": 1
+ },
+ "579": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "580": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]-,:[#6]-,:[#7]",
+  "min": 1
+ },
+ "581": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]-,:[#6]-,:[#8]",
+  "min": 1
+ },
+ "582": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "583": {
+  "kind": "smarts",
+  "smarts": "[Cl]-,:[#6]:[#6]-,:[#8]-,:[#6]",
+  "min": 1
+ },
+ "584": {
+  "kind": "smarts",
+  "smarts": "c:c-,:[#6]=,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "585": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]:[#6]-,:[#7]-,:[#6]",
+  "min": 1
+ },
+ "586": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#16]-,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "587": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]:[#6]-,:[#8&!H0]",
+  "min": 1
+ },
+ "588": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]-,:[#6]=,:[#8]",
+  "min": 1
+ },
+ "589": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]:[#6]-,:[#8]-,:[#6]",
+  "min": 1
+ },
+ "590": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]:[#6]-,:[#8&!H0]",
+  "min": 1
+ },
+ "591": {
+  "kind": "smarts",
+  "smarts": "[Cl]-,:[#6]-,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "592": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]-,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "593": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]-,:[#6]-,:[#6]-,:[#7]",
+  "min": 1
+ },
+ "594": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#8]-,:[#6]-,:[#6]=,:[#6]",
+  "min": 1
+ },
+ "595": {
+  "kind": "smarts",
+  "smarts": "c:c-,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "596": {
+  "kind": "smarts",
+  "smarts": "[#7]=,:[#6]-,:[#7]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "597": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]-,:c:c",
+  "min": 1
+ },
+ "598": {
+  "kind": "smarts",
+  "smarts": "[Cl]-,:[#6]:[#6]:[#6]-,:[#6]",
+  "min": 1
+ },
+ "599": {
+  "kind": "smarts",
+  "smarts": "[#6H,#6H2,#6H3]-,:[#6]=,:[#6H,#6H2,#6H3]",
+  "min": 1
+ },
+ "600": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]:[#6]:[#6]-,:[#6]",
+  "min": 1
+ },
+ "601": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]:[#6]:[#6]-,:[#7]",
+  "min": 1
+ },
+ "602": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]-,:[#7]-,:[#6]",
+  "min": 1
+ },
+ "603": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:c:c:[#6]-,:[#6]",
+  "min": 1
+ },
+ "604": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#8]-,:[#6]-,:[#6]:c",
+  "min": 1
+ },
+ "605": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]-,:[#8]-,:[#6]",
+  "min": 1
+ },
+ "606": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "607": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]-,:[#6]-,:[#6]:c",
+  "min": 1
+ },
+ "608": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]-,:[#6]-,:[#6]:c",
+  "min": 1
+ },
+ "609": {
+  "kind": "smarts",
+  "smarts": "[Cl]-,:[#6]-,:[#6]-,:[#7]-,:[#6]",
+  "min": 1
+ },
+ "610": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#8]-,:[#6]-,:[#8]-,:[#6]",
+  "min": 1
+ },
+ "611": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]-,:[#6]-,:[#7]-,:[#6]",
+  "min": 1
+ },
+ "612": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]-,:[#8]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "613": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#7]-,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "614": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]-,:[#8]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "615": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]-,:[#6]-,:[#8]-,:[#6]",
+  "min": 1
+ },
+ "616": {
+  "kind": "smarts",
+  "smarts": "c:c:n:n:c",
+  "min": 1
+ },
+ "617": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]-,:[#6]-,:[#8&!H0]",
+  "min": 1
+ },
+ "618": {
+  "kind": "smarts",
+  "smarts": "c:[#6]-,:[#6]-,:[#6]:c",
+  "min": 1
+ },
+ "619": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]=,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "620": {
+  "kind": "smarts",
+  "smarts": "c:c-,:[#8]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "621": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]:c:c:n",
+  "min": 1
+ },
+ "622": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#8]-,:[#6]:c",
+  "min": 1
+ },
+ "623": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]:[#6]-,:[#6]",
+  "min": 1
+ },
+ "624": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]:[#6]-,:[#7]",
+  "min": 1
+ },
+ "625": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]:[#6]-,:[#8]",
+  "min": 1
+ },
+ "626": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#8]-,:[#6]:[#6]-,:[#6]",
+  "min": 1
+ },
+ "627": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#33]-,:[#6]:c:c",
+  "min": 1
+ },
+ "628": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#7]-,:[#6]-,:[#6]:c",
+  "min": 1
+ },
+ "629": {
+  "kind": "smarts",
+  "smarts": "[#16]-,:[#6]:c:c-,:[#7]",
+  "min": 1
+ },
+ "630": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]:[#6]-,:[#8]-,:[#6]",
+  "min": 1
+ },
+ "631": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]:[#6]-,:[#8&!H0]",
+  "min": 1
+ },
+ "632": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]-,:[#8]-,:[#6]:c",
+  "min": 1
+ },
+ "633": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]-,:[#6]:[#6]-,:[#6]",
+  "min": 1
+ },
+ "634": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]-,:[#6]:[#6]-,:[#6]",
+  "min": 1
+ },
+ "635": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#7]-,:[#6]-,:[#7&!H0]",
+  "min": 1
+ },
+ "636": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#7]-,:[#6]-,:[#7]-,:[#6]",
+  "min": 1
+ },
+ "637": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "638": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]-,:[#6]-,:[#7]",
+  "min": 1
+ },
+ "639": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]-,:[#6]-,:[#8]",
+  "min": 1
+ },
+ "640": {
+  "kind": "smarts",
+  "smarts": "[#6]=,:[#6]-,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "641": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]-,:[#6]=,:[#6]",
+  "min": 1
+ },
+ "642": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]-,:[#6]=,:[#8]",
+  "min": 1
+ },
+ "643": {
+  "kind": "smarts",
+  "smarts": "[#6&!H0]-,:[#6]-,:[#7&!H0]",
+  "min": 1
+ },
+ "644": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]=,:[#7]-,:[#7]-,:[#6]",
+  "min": 1
+ },
+ "645": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#7]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "646": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#7]-,:[#6&!H0]",
+  "min": 1
+ },
+ "647": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#7]-,:[#6]-,:[#7]",
+  "min": 1
+ },
+ "648": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#7]-,:[#6]:[#6]-,:[#7]",
+  "min": 1
+ },
+ "649": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#7]-,:c:c-,:[#8]",
+  "min": 1
+ },
+ "650": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#7]-,:[#6]=,:[#8]",
+  "min": 1
+ },
+ "651": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]:[#6]:[#6]-,:[#6]",
+  "min": 1
+ },
+ "652": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]:[#6]:[#6]-,:[#7]",
+  "min": 1
+ },
+ "653": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]:[#6]:[#6]-,:[#8]",
+  "min": 1
+ },
+ "654": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]-,:[#7]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "655": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]-,:[#6]:c",
+  "min": 1
+ },
+ "656": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]-,:[#7]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "657": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#7]-,:[#6]:[#6]-,:[#6]",
+  "min": 1
+ },
+ "658": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]-,:[#16]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "659": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]-,:[#7]-,:[#6]",
+  "min": 1
+ },
+ "660": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]=,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "661": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#8]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "662": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]-,:[#8]-,:[#6]",
+  "min": 1
+ },
+ "663": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]-,:[#8&!H0]",
+  "min": 1
+ },
+ "664": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]=,:[#6]-,:[#6]=,:[#6]",
+  "min": 1
+ },
+ "665": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "666": {
+  "kind": "smarts",
+  "smarts": "[#6]=,:[#6]-,:[#6]-,:[#8]-,:[#6]",
+  "min": 1
+ },
+ "667": {
+  "kind": "smarts",
+  "smarts": "[#6]=,:[#6]-,:[#6]-,:[#8&!H0]",
+  "min": 1
+ },
+ "668": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "669": {
+  "kind": "smarts",
+  "smarts": "[Cl]-,:[#6]:[#6]-,:[#6]=,:[#8]",
+  "min": 1
+ },
+ "670": {
+  "kind": "smarts",
+  "smarts": "[Br]-,:[#6]:c:c-,:[#6]",
+  "min": 1
+ },
+ "671": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]=,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "672": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]=,:[#6&!H0]",
+  "min": 1
+ },
+ "673": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]=,:[#6]-,:[#7]",
+  "min": 1
+ },
+ "674": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]-,:[#7]-,:[#6]:c",
+  "min": 1
+ },
+ "675": {
+  "kind": "smarts",
+  "smarts": "[Br]-,:[#6]-,:[#6]-,:[#6]:c",
+  "min": 1
+ },
+ "676": {
+  "kind": "smarts",
+  "smarts": "[#7]#[#6]-,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "677": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]=,:[#6]-,:[#6]:c",
+  "min": 1
+ },
+ "678": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]-,:[#6]=,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "679": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "680": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "681": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#8]",
+  "min": 1
+ },
+ "682": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#7]",
+  "min": 1
+ },
+ "683": {
+  "kind": "smarts",
+  "smarts": "[#7]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "684": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "685": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#7]",
+  "min": 1
+ },
+ "686": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#8]",
+  "min": 1
+ },
+ "687": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]-,:[#6]-,:[#6]=,:[#8]",
+  "min": 1
+ },
+ "688": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "689": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "690": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#8]",
+  "min": 1
+ },
+ "691": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#7]",
+  "min": 1
+ },
+ "692": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "693": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#8]",
+  "min": 1
+ },
+ "694": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]=,:[#8]",
+  "min": 1
+ },
+ "695": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#7]",
+  "min": 1
+ },
+ "696": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "697": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6](-,:[#6])-,:[#6]",
+  "min": 1
+ },
+ "698": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "699": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6](-,:[#6])-,:[#6]",
+  "min": 1
+ },
+ "700": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#8]-,:[#6]",
+  "min": 1
+ },
+ "701": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6](-,:[#8])-,:[#6]",
+  "min": 1
+ },
+ "702": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#7]-,:[#6]",
+  "min": 1
+ },
+ "703": {
+  "kind": "smarts",
+  "smarts": "[#8]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6](-,:[#7])-,:[#6]",
+  "min": 1
+ },
+ "704": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "705": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6](-,:[#8])-,:[#6]",
+  "min": 1
+ },
+ "706": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6](=,:[#8])-,:[#6]",
+  "min": 1
+ },
+ "707": {
+  "kind": "smarts",
+  "smarts": "[#8]=,:[#6]-,:[#6]-,:[#6]-,:[#6]-,:[#6](-,:[#7])-,:[#6]",
+  "min": 1
+ },
+ "708": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6](-,:[#6])-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "709": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6](-,:[#6])-,:[#6]-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "710": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6]-,:[#6](-,:[#6])-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "711": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6](-,:[#6])(-,:[#6])-,:[#6]-,:[#6]",
+  "min": 1
+ },
+ "712": {
+  "kind": "smarts",
+  "smarts": "[#6]-,:[#6](-,:[#6])-,:[#6](-,:[#6])-,:[#6]",
+  "min": 1
+ },
+ "713": {
+  "kind": "smarts",
+  "smarts": "[#6]c1ccc([#6])cc1",
+  "min": 1
+ },
+ "714": {
+  "kind": "smarts",
+  "smarts": "[#6]c1ccc([#8])cc1",
+  "min": 1
+ },
+ "715": {
+  "kind": "smarts",
+  "smarts": "[#6]c1ccc([#16])cc1",
+  "min": 1
+ },
+ "716": {
+  "kind": "smarts",
+  "smarts": "[#6]c1ccc([#7])cc1",
+  "min": 1
+ },
+ "717": {
+  "kind": "smarts",
+  "smarts": "[#6]c1ccc(Cl)cc1",
+  "min": 1
+ },
+ "718": {
+  "kind": "smarts",
+  "smarts": "[#6]c1ccc(Br)cc1",
+  "min": 1
+ },
+ "719": {
+  "kind": "smarts",
+  "smarts": "[#8]c1ccc([#8])cc1",
+  "min": 1
+ },
+ "720": {
+  "kind": "smarts",
+  "smarts": "[#8]c1ccc([#16])cc1",
+  "min": 1
+ },
+ "721": {
+  "kind": "smarts",
+  "smarts": "[#8]c1ccc([#7])cc1",
+  "min": 1
+ },
+ "722": {
+  "kind": "smarts",
+  "smarts": "[#8]c1ccc(Cl)cc1",
+  "min": 1
+ },
+ "723": {
+  "kind": "smarts",
+  "smarts": "[#8]c1ccc(Br)cc1",
+  "min": 1
+ },
+ "724": {
+  "kind": "smarts",
+  "smarts": "[#16]c1ccc([#16])cc1",
+  "min": 1
+ },
+ "725": {
+  "kind": "smarts",
+  "smarts": "[#16]c1ccc([#7])cc1",
+  "min": 1
+ },
+ "726": {
+  "kind": "smarts",
+  "smarts": "[#16]c1ccc(Cl)cc1",
+  "min": 1
+ },
+ "727": {
+  "kind": "smarts",
+  "smarts": "[#16]c1ccc(Br)cc1",
+  "min": 1
+ },
+ "728": {
+  "kind": "smarts",
+  "smarts": "[#7]c1ccc([#7])cc1",
+  "min": 1
+ },
+ "729": {
+  "kind": "smarts",
+  "smarts": "[#7]c1ccc(Cl)cc1",
+  "min": 1
+ },
+ "730": {
+  "kind": "smarts",
+  "smarts": "[#7]c1ccc(Br)cc1",
+  "min": 1
+ },
+ "731": {
+  "kind": "smarts",
+  "smarts": "Clc1ccc(Cl)cc1",
+  "min": 1
+ },
+ "732": {
+  "kind": "smarts",
+  "smarts": "Clc1ccc(Br)cc1",
+  "min": 1
+ },
+ "733": {
+  "kind": "smarts",
+  "smarts": "Brc1ccc(Br)cc1",
+  "min": 1
+ },
+ "734": {
+  "kind": "smarts",
+  "smarts": "[#6]c1cc([#6])ccc1",
+  "min": 1
+ },
+ "735": {
+  "kind": "smarts",
+  "smarts": "[#6]c1cc([#8])ccc1",
+  "min": 1
+ },
+ "736": {
+  "kind": "smarts",
+  "smarts": "[#6]c1cc([#16])ccc1",
+  "min": 1
+ },
+ "737": {
+  "kind": "smarts",
+  "smarts": "[#6]c1cc([#7])ccc1",
+  "min": 1
+ },
+ "738": {
+  "kind": "smarts",
+  "smarts": "[#6]c1cc(Cl)ccc1",
+  "min": 1
+ },
+ "739": {
+  "kind": "smarts",
+  "smarts": "[#6]c1cc(Br)ccc1",
+  "min": 1
+ },
+ "740": {
+  "kind": "smarts",
+  "smarts": "[#8]c1cc([#8])ccc1",
+  "min": 1
+ },
+ "741": {
+  "kind": "smarts",
+  "smarts": "[#8]c1cc([#16])ccc1",
+  "min": 1
+ },
+ "742": {
+  "kind": "smarts",
+  "smarts": "[#8]c1cc([#7])ccc1",
+  "min": 1
+ },
+ "743": {
+  "kind": "smarts",
+  "smarts": "[#8]c1cc(Cl)ccc1",
+  "min": 1
+ },
+ "744": {
+  "kind": "smarts",
+  "smarts": "[#8]c1cc(Br)ccc1",
+  "min": 1
+ },
+ "745": {
+  "kind": "smarts",
+  "smarts": "[#16]c1cc([#16])ccc1",
+  "min": 1
+ },
+ "746": {
+  "kind": "smarts",
+  "smarts": "[#16]c1cc([#7])ccc1",
+  "min": 1
+ },
+ "747": {
+  "kind": "smarts",
+  "smarts": "[#16]c1cc(Cl)ccc1",
+  "min": 1
+ },
+ "748": {
+  "kind": "smarts",
+  "smarts": "[#16]c1cc(Br)ccc1",
+  "min": 1
+ },
+ "749": {
+  "kind": "smarts",
+  "smarts": "[#7]c1cc([#7])ccc1",
+  "min": 1
+ },
+ "750": {
+  "kind": "smarts",
+  "smarts": "[#7]c1cc(Cl)ccc1",
+  "min": 1
+ },
+ "751": {
+  "kind": "smarts",
+  "smarts": "[#7]c1cc(Br)ccc1",
+  "min": 1
+ },
+ "752": {
+  "kind": "smarts",
+  "smarts": "Clc1cc(Cl)ccc1",
+  "min": 1
+ },
+ "753": {
+  "kind": "smarts",
+  "smarts": "Clc1cc(Br)ccc1",
+  "min": 1
+ },
+ "754": {
+  "kind": "smarts",
+  "smarts": "Brc1cc(Br)ccc1",
+  "min": 1
+ },
+ "755": {
+  "kind": "smarts",
+  "smarts": "[#6]c1c([#6])cccc1",
+  "min": 1
+ },
+ "756": {
+  "kind": "smarts",
+  "smarts": "[#6]c1c([#8])cccc1",
+  "min": 1
+ },
+ "757": {
+  "kind": "smarts",
+  "smarts": "[#6]c1c([#16])cccc1",
+  "min": 1
+ },
+ "758": {
+  "kind": "smarts",
+  "smarts": "[#6]c1c([#7])cccc1",
+  "min": 1
+ },
+ "759": {
+  "kind": "smarts",
+  "smarts": "[#6]c1c(Cl)cccc1",
+  "min": 1
+ },
+ "760": {
+  "kind": "smarts",
+  "smarts": "[#6]c1c(Br)cccc1",
+  "min": 1
+ },
+ "761": {
+  "kind": "smarts",
+  "smarts": "[#8]c1c([#8])cccc1",
+  "min": 1
+ },
+ "762": {
+  "kind": "smarts",
+  "smarts": "[#8]c1c([#16])cccc1",
+  "min": 1
+ },
+ "763": {
+  "kind": "smarts",
+  "smarts": "[#8]c1c([#7])cccc1",
+  "min": 1
+ },
+ "764": {
+  "kind": "smarts",
+  "smarts": "[#8]c1c(Cl)cccc1",
+  "min": 1
+ },
+ "765": {
+  "kind": "smarts",
+  "smarts": "[#8]c1c(Br)cccc1",
+  "min": 1
+ },
+ "766": {
+  "kind": "smarts",
+  "smarts": "[#16]c1c([#16])cccc1",
+  "min": 1
+ },
+ "767": {
+  "kind": "smarts",
+  "smarts": "[#16]c1c([#7])cccc1",
+  "min": 1
+ },
+ "768": {
+  "kind": "smarts",
+  "smarts": "[#16]c1c(Cl)cccc1",
+  "min": 1
+ },
+ "769": {
+  "kind": "smarts",
+  "smarts": "[#16]c1c(Br)cccc1",
+  "min": 1
+ },
+ "770": {
+  "kind": "smarts",
+  "smarts": "[#7]c1c([#7])cccc1",
+  "min": 1
+ },
+ "771": {
+  "kind": "smarts",
+  "smarts": "[#7]c1c(Cl)cccc1",
+  "min": 1
+ },
+ "772": {
+  "kind": "smarts",
+  "smarts": "[#7]c1c(Br)cccc1",
+  "min": 1
+ },
+ "773": {
+  "kind": "smarts",
+  "smarts": "Clc1c(Cl)cccc1",
+  "min": 1
+ },
+ "774": {
+  "kind": "smarts",
+  "smarts": "Clc1c(Br)cccc1",
+  "min": 1
+ },
+ "775": {
+  "kind": "smarts",
+  "smarts": "Brc1c(Br)cccc1",
+  "min": 1
+ },
+ "776": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6][#6][#6]([#6])[#6][#6]1",
+  "min": 1
+ },
+ "777": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6][#6][#6]([#8])[#6][#6]1",
+  "min": 1
+ },
+ "778": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6][#6][#6]([#16])[#6][#6]1",
+  "min": 1
+ },
+ "779": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6][#6][#6]([#7])[#6][#6]1",
+  "min": 1
+ },
+ "780": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6][#6][#6](Cl)[#6][#6]1",
+  "min": 1
+ },
+ "781": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6][#6][#6](Br)[#6][#6]1",
+  "min": 1
+ },
+ "782": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6][#6][#6]([#8])[#6][#6]1",
+  "min": 1
+ },
+ "783": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6][#6][#6]([#16])[#6][#6]1",
+  "min": 1
+ },
+ "784": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6][#6][#6]([#7])[#6][#6]1",
+  "min": 1
+ },
+ "785": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6][#6][#6](Cl)[#6][#6]1",
+  "min": 1
+ },
+ "786": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6][#6][#6](Br)[#6][#6]1",
+  "min": 1
+ },
+ "787": {
+  "kind": "smarts",
+  "smarts": "[#16][#6]1[#6][#6][#6]([#16])[#6][#6]1",
+  "min": 1
+ },
+ "788": {
+  "kind": "smarts",
+  "smarts": "[#16][#6]1[#6][#6][#6]([#7])[#6][#6]1",
+  "min": 1
+ },
+ "789": {
+  "kind": "smarts",
+  "smarts": "[#16][#6]1[#6][#6][#6](Cl)[#6][#6]1",
+  "min": 1
+ },
+ "790": {
+  "kind": "smarts",
+  "smarts": "[#16][#6]1[#6][#6][#6](Br)[#6][#6]1",
+  "min": 1
+ },
+ "791": {
+  "kind": "smarts",
+  "smarts": "[#7][#6]1[#6][#6][#6]([#7])[#6][#6]1",
+  "min": 1
+ },
+ "792": {
+  "kind": "smarts",
+  "smarts": "[#7][#6]1[#6][#6][#6](Cl)[#6][#6]1",
+  "min": 1
+ },
+ "793": {
+  "kind": "smarts",
+  "smarts": "[#7][#6]1[#6][#6][#6](Br)[#6][#6]1",
+  "min": 1
+ },
+ "794": {
+  "kind": "smarts",
+  "smarts": "Cl[#6]1[#6][#6][#6](Cl)[#6][#6]1",
+  "min": 1
+ },
+ "795": {
+  "kind": "smarts",
+  "smarts": "Cl[#6]1[#6][#6][#6](Br)[#6][#6]1",
+  "min": 1
+ },
+ "796": {
+  "kind": "smarts",
+  "smarts": "Br[#6]1[#6][#6][#6](Br)[#6][#6]1",
+  "min": 1
+ },
+ "797": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6][#6]([#6])[#6][#6][#6]1",
+  "min": 1
+ },
+ "798": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6][#6]([#8])[#6][#6][#6]1",
+  "min": 1
+ },
+ "799": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6][#6]([#16])[#6][#6][#6]1",
+  "min": 1
+ },
+ "800": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6][#6]([#7])[#6][#6][#6]1",
+  "min": 1
+ },
+ "801": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6][#6](Cl)[#6][#6][#6]1",
+  "min": 1
+ },
+ "802": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6][#6](Br)[#6][#6][#6]1",
+  "min": 1
+ },
+ "803": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6][#6]([#8])[#6][#6][#6]1",
+  "min": 1
+ },
+ "804": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6][#6]([#16])[#6][#6][#6]1",
+  "min": 1
+ },
+ "805": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6][#6]([#7])[#6][#6][#6]1",
+  "min": 1
+ },
+ "806": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6][#6](Cl)[#6][#6][#6]1",
+  "min": 1
+ },
+ "807": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6][#6](Br)[#6][#6][#6]1",
+  "min": 1
+ },
+ "808": {
+  "kind": "smarts",
+  "smarts": "[#16][#6]1[#6][#6]([#16])[#6][#6][#6]1",
+  "min": 1
+ },
+ "809": {
+  "kind": "smarts",
+  "smarts": "[#16][#6]1[#6][#6]([#7])[#6][#6][#6]1",
+  "min": 1
+ },
+ "810": {
+  "kind": "smarts",
+  "smarts": "[#16][#6]1[#6][#6](Cl)[#6][#6][#6]1",
+  "min": 1
+ },
+ "811": {
+  "kind": "smarts",
+  "smarts": "[#16][#6]1[#6][#6](Br)[#6][#6][#6]1",
+  "min": 1
+ },
+ "812": {
+  "kind": "smarts",
+  "smarts": "[#7][#6]1[#6][#6]([#7])[#6][#6][#6]1",
+  "min": 1
+ },
+ "813": {
+  "kind": "smarts",
+  "smarts": "[#7][#6]1[#6][#6](Cl)[#6][#6][#6]1",
+  "min": 1
+ },
+ "814": {
+  "kind": "smarts",
+  "smarts": "[#7][#6]1[#6][#6](Br)[#6][#6][#6]1",
+  "min": 1
+ },
+ "815": {
+  "kind": "smarts",
+  "smarts": "Cl[#6]1[#6][#6](Cl)[#6][#6][#6]1",
+  "min": 1
+ },
+ "816": {
+  "kind": "smarts",
+  "smarts": "Cl[#6]1[#6][#6](Br)[#6][#6][#6]1",
+  "min": 1
+ },
+ "817": {
+  "kind": "smarts",
+  "smarts": "Br[#6]1[#6][#6](Br)[#6][#6][#6]1",
+  "min": 1
+ },
+ "818": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6]([#6])[#6][#6][#6][#6]1",
+  "min": 1
+ },
+ "819": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6]([#8])[#6][#6][#6][#6]1",
+  "min": 1
+ },
+ "820": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6]([#16])[#6][#6][#6][#6]1",
+  "min": 1
+ },
+ "821": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6]([#7])[#6][#6][#6][#6]1",
+  "min": 1
+ },
+ "822": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6](Cl)[#6][#6][#6][#6]1",
+  "min": 1
+ },
+ "823": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6](Br)[#6][#6][#6][#6]1",
+  "min": 1
+ },
+ "824": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6]([#8])[#6][#6][#6][#6]1",
+  "min": 1
+ },
+ "825": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6]([#16])[#6][#6][#6][#6]1",
+  "min": 1
+ },
+ "826": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6]([#7])[#6][#6][#6][#6]1",
+  "min": 1
+ },
+ "827": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6](Cl)[#6][#6][#6][#6]1",
+  "min": 1
+ },
+ "828": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6](Br)[#6][#6][#6][#6]1",
+  "min": 1
+ },
+ "829": {
+  "kind": "smarts",
+  "smarts": "[#16][#6]1[#6]([#16])[#6][#6][#6][#6]1",
+  "min": 1
+ },
+ "830": {
+  "kind": "smarts",
+  "smarts": "[#16][#6]1[#6]([#7])[#6][#6][#6][#6]1",
+  "min": 1
+ },
+ "831": {
+  "kind": "smarts",
+  "smarts": "[#16][#6]1[#6](Cl)[#6][#6][#6][#6]1",
+  "min": 1
+ },
+ "832": {
+  "kind": "smarts",
+  "smarts": "[#16][#6]1[#6](Br)[#6][#6][#6][#6]1",
+  "min": 1
+ },
+ "833": {
+  "kind": "smarts",
+  "smarts": "[#7][#6]1[#6]([#7])[#6][#6][#6][#6]1",
+  "min": 1
+ },
+ "834": {
+  "kind": "smarts",
+  "smarts": "[#7][#6]1[#6](Cl)[#6][#6][#6][#6]1",
+  "min": 1
+ },
+ "835": {
+  "kind": "smarts",
+  "smarts": "[#7][#6]1[#6](Br)[#6][#6][#6][#6]1",
+  "min": 1
+ },
+ "836": {
+  "kind": "smarts",
+  "smarts": "Cl[#6]1[#6](Cl)[#6][#6][#6][#6]1",
+  "min": 1
+ },
+ "837": {
+  "kind": "smarts",
+  "smarts": "Cl[#6]1[#6](Br)[#6][#6][#6][#6]1",
+  "min": 1
+ },
+ "838": {
+  "kind": "smarts",
+  "smarts": "Br[#6]1[#6](Br)[#6][#6][#6][#6]1",
+  "min": 1
+ },
+ "839": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6][#6]([#6])[#6][#6]1",
+  "min": 1
+ },
+ "840": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6][#6]([#8])[#6][#6]1",
+  "min": 1
+ },
+ "841": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6][#6]([#16])[#6][#6]1",
+  "min": 1
+ },
+ "842": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6][#6]([#7])[#6][#6]1",
+  "min": 1
+ },
+ "843": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6][#6](Cl)[#6][#6]1",
+  "min": 1
+ },
+ "844": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6][#6](Br)[#6][#6]1",
+  "min": 1
+ },
+ "845": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6][#6]([#8])[#6][#6]1",
+  "min": 1
+ },
+ "846": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6][#6]([#16])[#6][#6]1",
+  "min": 1
+ },
+ "847": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6][#6]([#7])[#6][#6]1",
+  "min": 1
+ },
+ "848": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6][#6](Cl)[#6][#6]1",
+  "min": 1
+ },
+ "849": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6][#6](Br)[#6][#6]1",
+  "min": 1
+ },
+ "850": {
+  "kind": "smarts",
+  "smarts": "[#16][#6]1[#6][#6]([#16])[#6][#6]1",
+  "min": 1
+ },
+ "851": {
+  "kind": "smarts",
+  "smarts": "[#16][#6]1[#6][#6]([#7])[#6][#6]1",
+  "min": 1
+ },
+ "852": {
+  "kind": "smarts",
+  "smarts": "[#16][#6]1[#6][#6](Cl)[#6][#6]1",
+  "min": 1
+ },
+ "853": {
+  "kind": "smarts",
+  "smarts": "[#16][#6]1[#6][#6](Br)[#6][#6]1",
+  "min": 1
+ },
+ "854": {
+  "kind": "smarts",
+  "smarts": "[#7][#6]1[#6][#6]([#7])[#6][#6]1",
+  "min": 1
+ },
+ "855": {
+  "kind": "smarts",
+  "smarts": "[#7][#6]1[#6][#6](Cl)[#6][#6]1",
+  "min": 1
+ },
+ "856": {
+  "kind": "smarts",
+  "smarts": "[#7][#6]1[#6][#6](Br)[#6][#6]1",
+  "min": 1
+ },
+ "857": {
+  "kind": "smarts",
+  "smarts": "Cl[#6]1[#6][#6](Cl)[#6][#6]1",
+  "min": 1
+ },
+ "858": {
+  "kind": "smarts",
+  "smarts": "Cl[#6]1[#6][#6](Br)[#6][#6]1",
+  "min": 1
+ },
+ "859": {
+  "kind": "smarts",
+  "smarts": "Br[#6]1[#6][#6](Br)[#6][#6]1",
+  "min": 1
+ },
+ "860": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6]([#6])[#6][#6][#6]1",
+  "min": 1
+ },
+ "861": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6]([#8])[#6][#6][#6]1",
+  "min": 1
+ },
+ "862": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6]([#16])[#6][#6][#6]1",
+  "min": 1
+ },
+ "863": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6]([#7])[#6][#6][#6]1",
+  "min": 1
+ },
+ "864": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6](Cl)[#6][#6][#6]1",
+  "min": 1
+ },
+ "865": {
+  "kind": "smarts",
+  "smarts": "[#6][#6]1[#6](Br)[#6][#6][#6]1",
+  "min": 1
+ },
+ "866": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6]([#8])[#6][#6][#6]1",
+  "min": 1
+ },
+ "867": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6]([#16])[#6][#6][#6]1",
+  "min": 1
+ },
+ "868": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6]([#7])[#6][#6][#6]1",
+  "min": 1
+ },
+ "869": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6](Cl)[#6][#6][#6]1",
+  "min": 1
+ },
+ "870": {
+  "kind": "smarts",
+  "smarts": "[#8][#6]1[#6](Br)[#6][#6][#6]1",
+  "min": 1
+ },
+ "871": {
+  "kind": "smarts",
+  "smarts": "[#16][#6]1[#6]([#16])[#6][#6][#6]1",
+  "min": 1
+ },
+ "872": {
+  "kind": "smarts",
+  "smarts": "[#16][#6]1[#6]([#7])[#6][#6][#6]1",
+  "min": 1
+ },
+ "873": {
+  "kind": "smarts",
+  "smarts": "[#16][#6]1[#6](Cl)[#6][#6][#6]1",
+  "min": 1
+ },
+ "874": {
+  "kind": "smarts",
+  "smarts": "[#16][#6]1[#6](Br)[#6][#6][#6]1",
+  "min": 1
+ },
+ "875": {
+  "kind": "smarts",
+  "smarts": "[#7][#6]1[#6]([#7])[#6][#6][#6]1",
+  "min": 1
+ },
+ "876": {
+  "kind": "smarts",
+  "smarts": "[#7][#6]1[#6](Cl)[#6][#6]1",
+  "min": 1
+ },
+ "877": {
+  "kind": "smarts",
+  "smarts": "[#7][#6]1[#6](Br)[#6][#6][#6]1",
+  "min": 1
+ },
+ "878": {
+  "kind": "smarts",
+  "smarts": "Cl[#6]1[#6](Cl)[#6][#6][#6]1",
+  "min": 1
+ },
+ "879": {
+  "kind": "smarts",
+  "smarts": "Cl[#6]1[#6](Br)[#6][#6][#6]1",
+  "min": 1
+ },
+ "880": {
+  "kind": "smarts",
+  "smarts": "Br[#6]1[#6](Br)[#6][#6][#6]1",
+  "min": 1
+ }
+}
