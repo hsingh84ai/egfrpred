@@ -6,14 +6,21 @@
  * the page wires the pipeline up correctly, or whether the CSV comes out right.
  * This runs the production build end to end and checks the numbers on screen.
  *
+ * With --single it drives build/egfrpred-standalone.html over file:// instead,
+ * with no server at all, and additionally asserts that the page issues no
+ * network requests -- which is the whole claim that file makes.
+ *
  * Usage:  npm run smoke
+ *         npm run smoke -- --single
  */
 
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import { extname, join, normalize } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import { chromium } from 'playwright';
+
+const single = process.argv.includes('--single');
 
 const BUILD = fileURLToPath(new URL('../build', import.meta.url));
 const TYPES = {
@@ -33,8 +40,13 @@ const server = createServer(async (req, res) => {
   }
 });
 
-await new Promise((resolve) => server.listen(0, resolve));
-const origin = `http://127.0.0.1:${server.address().port}`;
+let target;
+if (single) {
+  target = pathToFileURL(join(BUILD, 'egfrpred-standalone.html')).href;
+} else {
+  await new Promise((resolve) => server.listen(0, resolve));
+  target = `http://127.0.0.1:${server.address().port}`;
+}
 
 // Use a preinstalled Chromium when one is provided (CI images often pin a build
 // that does not match the npm package's expected revision).
@@ -46,8 +58,12 @@ const problems = [];
 page.on('console', (m) => { if (m.type() === 'error') problems.push(m.text()); });
 page.on('pageerror', (e) => problems.push(String(e)));
 
+// The standalone file must reach for nothing: no chunk, no wasm, no font.
+const requested = [];
+page.on('request', (r) => { if (!r.url().startsWith('file:')) requested.push(r.url()); });
+
 try {
-  await page.goto(origin, { waitUntil: 'networkidle' });
+  await page.goto(target, { waitUntil: 'networkidle' });
 
   // The button stays disabled until the wasm module has finished loading.
   await page.fill('#smiles', [
@@ -75,6 +91,7 @@ try {
   checks.push(['structure renders', true]);
 
   checks.push(['no console errors', problems.length === 0]);
+  if (single) checks.push([`no network requests (${requested.length})`, requested.length === 0]);
 
   const shot = process.argv.find((a) => a.startsWith('--screenshot='));
   if (shot) {
@@ -89,6 +106,7 @@ try {
     if (!ok) failed++;
   }
   if (problems.length) console.log('console errors:\n  ' + problems.join('\n  '));
+  if (single && requested.length) console.log('requested:\n  ' + requested.join('\n  '));
   process.exitCode = failed === 0 ? 0 : 1;
 } finally {
   await browser.close();
