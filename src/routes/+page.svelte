@@ -1,8 +1,10 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import type { RDKitModule } from '@rdkit/rdkit';
+  import { CanvasEditor } from 'openchemlib';
   import { loadRDKit } from '$lib/rdkit';
   import { DECISION_THRESHOLD, parseInput, predictAll, toCSV, type Prediction } from '$lib/predict';
+  import { appendMolecule, molfileToSmiles, SketchError } from '$lib/sketcher';
 
   const SAMPLE = `COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1\tgefitinib
 C#Cc1cccc(Nc2ncnc3cc(OCCOC)c(OCCOC)cc23)c1\terlotinib
@@ -16,6 +18,12 @@ c1ccc(cc1CCCCCCCCCCCCCCC)O)N\tmalformed_example`;
   let running = $state(false);
   let progress = $state({ done: 0, total: 0 });
   let selected = $state<Prediction | null>(null);
+
+  let sketching = $state(false);
+  let sketchHost = $state<HTMLDivElement | null>(null);
+  let sketchError = $state<string | null>(null);
+  let drawnCount = $state(0);
+  let editor: CanvasEditor | null = null;
 
   const molecules = $derived(parseInput(input));
   const hits = $derived(results.filter((r) => r.label === 'Anti-EGFR').length);
@@ -44,6 +52,40 @@ c1ccc(cc1CCCCCCCCCCCCCCC)O)N\tmalformed_example`;
       });
     } finally {
       running = false;
+    }
+  }
+
+  // The editor is built against a DOM node, so it is created once that node
+  // exists and destroyed when the panel closes -- it holds a canvas and
+  // listeners that would otherwise leak across open/close cycles.
+  $effect(() => {
+    const host = sketchHost;
+    if (!host) return;
+    editor = new CanvasEditor(host);
+    return () => {
+      editor?.destroy();
+      editor = null;
+    };
+  });
+
+  /**
+   * Turn what is drawn into a line of input.
+   *
+   * Deliberately routed through the textarea rather than scored directly: the
+   * drawn structure then goes through the same parse and predict path as typed
+   * input, and stays visible and editable instead of vanishing into a result.
+   */
+  function addDrawing() {
+    if (!rdkit || !editor) return;
+    sketchError = null;
+    try {
+      const smiles = molfileToSmiles(rdkit, editor.getMolecule().toMolfile());
+      drawnCount += 1;
+      input = appendMolecule(input, smiles, `drawn-${drawnCount}`);
+      editor.clearAll();
+    } catch (error) {
+      sketchError = error instanceof SketchError ? error.message
+        : `could not read that structure: ${error instanceof Error ? error.message : String(error)}`;
     }
   }
 
@@ -113,11 +155,26 @@ c1ccc(cc1CCCCCCCCCCCCCCC)O)N\tmalformed_example`;
         Load .smi file
         <input type="file" accept=".smi,.smiles,.txt,.csv" onchange={onFile} />
       </label>
+      <button class="link" onclick={() => { sketching = !sketching; sketchError = null; }}>
+        {sketching ? 'Close editor' : 'Draw structure'}
+      </button>
       <button class="link" onclick={() => (input = SAMPLE)}>Use example</button>
       {#if results.length}
         <button class="link" onclick={download}>Download CSV</button>
       {/if}
     </div>
+
+    {#if sketching}
+      <div class="sketcher">
+        <div class="canvas" bind:this={sketchHost}></div>
+        <div class="controls">
+          <button onclick={addDrawing} disabled={!rdkit}>Add to input</button>
+          <button class="link" onclick={() => editor?.clearAll()}>Clear</button>
+          <span class="hint">the drawn structure is added as SMILES, then scored like any other line</span>
+        </div>
+        {#if sketchError}<p class="why">{sketchError}</p>{/if}
+      </div>
+    {/if}
   </section>
 
   {#if results.length}
@@ -297,6 +354,15 @@ c1ccc(cc1CCCCCCCCCCCCCCC)O)N\tmalformed_example`;
   }
 
   tr.structure td { background: var(--bg); }
+  .sketcher { margin-top: 1rem; border-top: 1px solid var(--line); padding-top: 1rem; }
+  /* The editor draws its own toolbar into a canvas it sizes to this box, so it
+     needs a definite height rather than one derived from its contents. */
+  .sketcher .canvas {
+    height: 420px; min-width: 0; background: #fff;
+    border: 1px solid var(--line); border-radius: .4rem; overflow: hidden;
+  }
+  .sketcher .controls { margin-top: .7rem; }
+
   .depiction { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; padding: .5rem 0; }
   .depiction :global(svg) { background: #fff; border-radius: .4rem; border: 1px solid var(--line); }
   .smiles { color: var(--muted); word-break: break-all; }

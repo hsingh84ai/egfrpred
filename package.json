@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "test": "node scripts/validate_fingerprint.mjs",
+    "test:sketcher": "node scripts/validate_sketcher.mjs",
     "fixture": "node scripts/make_fixture.mjs",
     "smoke": "node scripts/smoke.mjs",
     "analyse": "node scripts/analyse_cdk_quirks.mjs",
@@ -20,7 +21,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@rdkit/rdkit": "^2025.3.4-1.0.0"
+    "@rdkit/rdkit": "^2025.3.4-1.0.0",
+    "openchemlib": "^9.24.0"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.10",

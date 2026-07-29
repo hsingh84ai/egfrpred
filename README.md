@@ -10,7 +10,7 @@ on. The whole thing is a SvelteKit app that builds to static files.
 ## Download: the whole app in one file
 
 **[egfrpred-standalone.html](https://github.com/hsingh84ai/egfrpred/releases/latest/download/egfrpred-standalone.html)**
-(~9 MB, [latest release](https://github.com/hsingh84ai/egfrpred/releases/latest))
+(~12 MB, [latest release](https://github.com/hsingh84ai/egfrpred/releases/latest))
 
 Download it and open it in a browser. That is the entire installation.
 
@@ -34,8 +34,11 @@ npm run build:single     # -> build/egfrpred-standalone.html
 ## Using it
 
 Enter one SMILES per line, optionally followed by whitespace and a name, or load
-a `.smi` file. A score at or above **0.20** is called `Anti-EGFR`. Results
-download as CSV in the format the original tool emitted:
+a `.smi` file. **Draw structure** opens a sketcher if you would rather draw one:
+what you draw is converted to SMILES and appended to the input as `drawn-1`,
+`drawn-2` and so on, so it is scored by exactly the same path as typed input and
+stays visible and editable. A score at or above **0.20** is called `Anti-EGFR`.
+Results download as CSV in the format the original tool emitted:
 
 ```
 #Molecule_ID,Prediction,Prediction_score
@@ -61,7 +64,7 @@ also tested on Node 26.
 
 ```bash
 npm run build          # -> build/, a static site, about 7 MB
-npm run build:single   # -> build/egfrpred-standalone.html, one 9 MB file
+npm run build:single   # -> build/egfrpred-standalone.html, one 12 MB file
 ```
 
 `build/` is plain files; any static host works — GitHub Pages, Netlify, S3, or
@@ -92,6 +95,7 @@ before, if you want both.
 | `npm run build` | static site |
 | `npm run build:single` | single-file build |
 | `npm test` | fingerprint against recorded PaDEL output — the regression gate |
+| `npm run test:sketcher` | drawn structures score the same as the equivalent SMILES |
 | `npm run smoke` | drive the built site in a real browser |
 | `npm run smoke -- --single` | drive the standalone file, and assert it makes no network requests |
 | `npm run analyse` | re-derive the CDK quirk described below |
@@ -236,5 +240,5 @@ For research use only. Not a clinical or regulatory decision tool.
 ## License
 
 See `GNU_LICENSE`. The bundled model weights derive from the original EGFRpred
-release and remain under its terms. RDKit is distributed under the BSD 3-clause
-license.
+release and remain under its terms. RDKit and OpenChemLib, which provides the
+structure editor, are both distributed under the BSD 3-clause license.
