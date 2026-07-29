@@ -7,7 +7,46 @@ structure drawing all run client-side — there is no server, no upload and no
 network traffic at runtime, so molecules never leave the machine they are typed
 on. The whole thing is a SvelteKit app that builds to static files.
 
-## Quick start
+## Download: the whole app in one file
+
+**[egfrpred-standalone.html](https://github.com/hsingh84ai/egfrpred/releases/latest/download/egfrpred-standalone.html)**
+(~9 MB, [latest release](https://github.com/hsingh84ai/egfrpred/releases/latest))
+
+Download it and open it in a browser. That is the entire installation.
+
+Everything is embedded in that one file — the interface, the random forest, and
+RDKit's WebAssembly build, base64-encoded inside the HTML. There is nothing to
+install, no server to start and no internet connection required. It runs offline,
+from a USB stick, or from a shared drive, and because no molecule is ever sent
+anywhere it is safe to use on unpublished structures.
+
+It needs a browser with WebAssembly, which every current one has; it is tested on
+Chrome and Edge. The first load takes a moment while the 7 MB WebAssembly module
+is decoded and compiled.
+
+To build the same file yourself:
+
+```bash
+npm install
+npm run build:single     # -> build/egfrpred-standalone.html
+```
+
+## Using it
+
+Enter one SMILES per line, optionally followed by whitespace and a name, or load
+a `.smi` file. A score at or above **0.20** is called `Anti-EGFR`. Results
+download as CSV in the format the original tool emitted:
+
+```
+#Molecule_ID,Prediction,Prediction_score
+gefitinib,Anti-EGFR,0.5565
+aspirin,Non-anti-EGFR,0.1604
+```
+
+Each row has a **view** link that draws the structure RDKit actually parsed,
+which is a quick way to catch a SMILES that was read differently than intended.
+
+## Running from source
 
 ```bash
 npm install
@@ -17,15 +56,6 @@ npm run dev
 Then open http://localhost:5173. `npm install` also stages RDKit's 7 MB
 WebAssembly build into `static/`, so it takes a moment. Node 20.19+ or 22.12+;
 also tested on Node 26.
-
-Input is one SMILES per line, optionally followed by whitespace and a name, or a
-`.smi` file. Results download as CSV in the format the original tool emitted:
-
-```
-#Molecule_ID,Prediction,Prediction_score
-gefitinib,Anti-EGFR,0.5565
-aspirin,Non-anti-EGFR,0.1604
-```
 
 ## Building
 
@@ -41,13 +71,18 @@ npm run build:single   # -> build/egfrpred-standalone.html, one 9 MB file
 BASE_PATH=/egfrpred npm run build
 ```
 
-`build:single` produces **one HTML file with everything embedded**: the app, the
-model, and RDKit's WebAssembly binary base64-encoded inside it. Open it by
-double-clicking — no server, no install, works offline and from a USB stick. It
-is built separately (`scripts/standalone/`), mounting the same page component
-with plain Vite, because SvelteKit's client is a router that resolves routes from
-`location.pathname` and loads chunks on demand; neither survives being flattened
-into a file opened from disk.
+The standalone file is built separately, from `scripts/standalone/`, which mounts
+the same page component with plain Vite. SvelteKit's own client is a router: it
+resolves a route from `location.pathname` and loads its chunks on demand through
+a preload helper that resolves them against `import.meta.url`. Neither survives
+being flattened into a single file opened from disk, and neither can be turned
+off through config, since SvelteKit overrides `build.modulePreload` and
+`build.cssCodeSplit`. Mounting the page directly avoids both. `npm run smoke --
+--single` drives the result over `file://` and asserts it issues no network
+requests.
+
+Note that `npm run build` empties `build/`, so run `build:single` after it, not
+before, if you want both.
 
 ## Scripts
 
@@ -67,8 +102,6 @@ into a file opened from disk.
 ```
 SMILES -> RDKit (wasm) -> 49 PubChem fingerprint bits -> random forest -> score
 ```
-
-A score at or above **0.20** is called `Anti-EGFR`.
 
 - **The fingerprint** is 49 of the 881 PubChem substructure bits — the ones the
   model actually uses. Of those, 2 are element counts, 8 are SSSR ring predicates
