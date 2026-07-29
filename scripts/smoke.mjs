@@ -90,6 +90,26 @@ try {
   await page.waitForSelector('tr.structure svg', { timeout: 15_000 });
   checks.push(['structure renders', true]);
 
+  // The structure editor: open it, drag out a bond, and check the drawing
+  // reaches the input as SMILES. This matters most in the standalone build,
+  // where the editor has to work with no network and nothing left to fetch.
+  await page.click('button.link:text-is("Draw structure")');
+  await page.waitForSelector('.sketcher canvas', { timeout: 30_000 });
+  const canvas = await page.locator('.sketcher .canvas').boundingBox();
+  const midX = canvas.x + canvas.width / 2;
+  const midY = canvas.y + canvas.height / 2;
+  await page.mouse.move(midX - 40, midY);
+  await page.mouse.down();
+  await page.mouse.move(midX + 40, midY + 60, { steps: 12 });
+  await page.mouse.up();
+  await page.click('.sketcher button:not(.link)');
+
+  const drawn = await page.inputValue('#smiles');
+  const drawnLine = drawn.split('\n').find((line) => line.endsWith('\tdrawn-1'));
+  console.log('drawn structure ->', drawnLine ?? '(nothing added)');
+  checks.push(['editor mounts', true]);
+  checks.push(['drawing reaches the input as SMILES', Boolean(drawnLine)]);
+
   checks.push(['no console errors', problems.length === 0]);
   if (single) checks.push([`no network requests (${requested.length})`, requested.length === 0]);
 
