@@ -6,6 +6,9 @@
   import { DECISION_THRESHOLD, parseInput, predictAll, toCSV, type Prediction } from '$lib/predict';
   import { appendMolecule, molfileToSmiles, SketchError } from '$lib/sketcher';
 
+  /** Where the original datasets live; they are linked, never redistributed. */
+  const DATA_SITE = 'https://webs.iiitd.edu.in/oscadd/egfrpred';
+
   const SAMPLE = `COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1\tgefitinib
 C#Cc1cccc(Nc2ncnc3cc(OCCOC)c(OCCOC)cc23)c1\terlotinib
 CC(=O)Oc1ccccc1C(=O)O\taspirin
@@ -230,6 +233,28 @@ c1ccc(cc1CCCCCCCCCCCCCCC)O)N\tmalformed_example`;
     </section>
   {/if}
 
+  <section class="panel">
+    <h2>Data</h2>
+    <p class="data">
+      The datasets are not redistributed here; these link to the
+      <a href="{DATA_SITE}/download.php" target="_blank" rel="noopener noreferrer">original EGFRpred site</a>.
+    </p>
+    <ul class="data">
+      <li>
+        The EGFRindb ids of Benchmark dataset can be downloaded from:
+        <a href="{DATA_SITE}/Dataset.xlsx" target="_blank" rel="noopener noreferrer">data here</a>
+      </li>
+      {#each [10, 100, 1000] as size (size)}
+        <li>
+          EGFR{size} dataset in smiles format:
+          <a href="{DATA_SITE}/active-{size}.smi" target="_blank" rel="noopener noreferrer">Active dataset</a>
+          |
+          <a href="{DATA_SITE}/inactive-{size}.smi" target="_blank" rel="noopener noreferrer">Inactive dataset</a>
+        </li>
+      {/each}
+    </ul>
+  </section>
+
   <footer>
     <p>
       Model and fingerprint reproduce the original EGFRpred pipeline (PaDEL-Descriptor +
@@ -275,6 +300,11 @@ c1ccc(cc1CCCCCCCCCCCCCCC)O)N\tmalformed_example`;
 
   main { max-width: 60rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
   h1 { font-size: 1.9rem; margin: 0 0 .25rem; letter-spacing: -.02em; }
+  h2 { font-size: 1rem; margin: 0 0 .45rem; }
+  .data { margin: 0; font-size: .9rem; color: var(--muted); }
+  .data a { color: inherit; overflow-wrap: anywhere; }
+  ul.data { margin: .6rem 0 0; padding-left: 1.1rem; }
+  ul.data li { margin-bottom: .3rem; }
   .tagline { color: var(--muted); margin: 0 0 1.75rem; max-width: 46rem; }
 
   .panel {

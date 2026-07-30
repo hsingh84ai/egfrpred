@@ -201,6 +201,23 @@ tests/fixtures/            PaDEL ground truth, gzipped
 static/                    RDKit wasm, staged from node_modules on install
 ```
 
+## Data
+
+The datasets are not redistributed here. They are published on the
+[original EGFRpred site](https://webs.iiitd.edu.in/oscadd/egfrpred/download.php):
+
+- The EGFRindb ids of Benchmark dataset can be downloaded from:
+  [data here](https://webs.iiitd.edu.in/oscadd/egfrpred/Dataset.xlsx)
+- EGFR10 dataset in smiles format:
+  [Active dataset](https://webs.iiitd.edu.in/oscadd/egfrpred/active-10.smi) |
+  [Inactive dataset](https://webs.iiitd.edu.in/oscadd/egfrpred/inactive-10.smi)
+- EGFR100 dataset in smiles format:
+  [Active dataset](https://webs.iiitd.edu.in/oscadd/egfrpred/active-100.smi) |
+  [Inactive dataset](https://webs.iiitd.edu.in/oscadd/egfrpred/inactive-100.smi)
+- EGFR1000 dataset in smiles format:
+  [Active dataset](https://webs.iiitd.edu.in/oscadd/egfrpred/active-1000.smi) |
+  [Inactive dataset](https://webs.iiitd.edu.in/oscadd/egfrpred/inactive-1000.smi)
+
 ## Provenance
 
 This replaces a 2015 command-line tool that needed Python 2.7, scikit-learn
